@@ -1,0 +1,2789 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_44945e38a0d34745af3c53e7540c3955 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_44945e38a0d34745af3c53e7540c3955" ></div>
+        
+</body>
+<script>    
+    
+            var map_44945e38a0d34745af3c53e7540c3955 = L.map(
+                "map_44945e38a0d34745af3c53e7540c3955",
+                {
+                    center: [18.5204, 73.8567],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6ee7fe157c4a4dc2905e2ba1ce9eaf11 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_44945e38a0d34745af3c53e7540c3955);
+        
+    
+            var feature_group_51015cb75c8b43499bda6284b0fa8340 = L.featureGroup(
+                {}
+            ).addTo(map_44945e38a0d34745af3c53e7540c3955);
+        
+    
+            var marker_0884ac84fa304c83b807fe67f978bfb1 = L.marker(
+                [17.42, 78.45],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_12cb14d779b34911b0d170031afd43b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0884ac84fa304c83b807fe67f978bfb1.setIcon(icon_12cb14d779b34911b0d170031afd43b8);
+        
+    
+        var popup_c67b286468374a33bce2a45bea4c77ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1362a975887448ba4608434d196b9ba = $(`<div id="html_f1362a975887448ba4608434d196b9ba" style="width: 100.0%; height: 100.0%;">Lower Ground Floor, GVK One, Road Number 1, Banjara Hills</div>`)[0];
+            popup_c67b286468374a33bce2a45bea4c77ba.setContent(html_f1362a975887448ba4608434d196b9ba);
+        
+
+        marker_0884ac84fa304c83b807fe67f978bfb1.bindPopup(popup_c67b286468374a33bce2a45bea4c77ba)
+        ;
+
+        
+    
+    
+            var marker_c897037d86ea4df48ce293fe8328d46a = L.marker(
+                [17.48, 78.39],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_4d7f22ddb13f47f7aab08633f63e77bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c897037d86ea4df48ce293fe8328d46a.setIcon(icon_4d7f22ddb13f47f7aab08633f63e77bb);
+        
+    
+        var popup_02099774f82f47b99d474a8f7bf836d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a219cc2a09e24dec9f1c8b8a72f01151 = $(`<div id="html_a219cc2a09e24dec9f1c8b8a72f01151" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Forum Sujana Mall, Kukatpally</div>`)[0];
+            popup_02099774f82f47b99d474a8f7bf836d8.setContent(html_a219cc2a09e24dec9f1c8b8a72f01151);
+        
+
+        marker_c897037d86ea4df48ce293fe8328d46a.bindPopup(popup_02099774f82f47b99d474a8f7bf836d8)
+        ;
+
+        
+    
+    
+            var marker_e519612ac909484d8acac7da452f6a54 = L.marker(
+                [17.43, 78.39],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_9541f68cabb64be49a4e1440c3f9b28a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e519612ac909484d8acac7da452f6a54.setIcon(icon_9541f68cabb64be49a4e1440c3f9b28a);
+        
+    
+        var popup_fb6cebddb98843dfa12cddeb029d8836 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a261b3fc13de469d8af68e284846b3b4 = $(`<div id="html_a261b3fc13de469d8af68e284846b3b4" style="width: 100.0%; height: 100.0%;">Lower Ground Floor, Inorbit Mall, Madhapur</div>`)[0];
+            popup_fb6cebddb98843dfa12cddeb029d8836.setContent(html_a261b3fc13de469d8af68e284846b3b4);
+        
+
+        marker_e519612ac909484d8acac7da452f6a54.bindPopup(popup_fb6cebddb98843dfa12cddeb029d8836)
+        ;
+
+        
+    
+    
+            var marker_0fc7ab05c66d4047ae0c37ec645e35ed = L.marker(
+                [17.42, 78.42],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_6663151448ea4581a20aae4122d32223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0fc7ab05c66d4047ae0c37ec645e35ed.setIcon(icon_6663151448ea4581a20aae4122d32223);
+        
+    
+        var popup_55ad7f5529ed4f8ea04e33bd2594c484 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_481e501a0ef94cc3a6482c5701193f8f = $(`<div id="html_481e501a0ef94cc3a6482c5701193f8f" style="width: 100.0%; height: 100.0%;">Ground Floor, Road No. 92, Near Apollo hospital, Jubilee Hills</div>`)[0];
+            popup_55ad7f5529ed4f8ea04e33bd2594c484.setContent(html_481e501a0ef94cc3a6482c5701193f8f);
+        
+
+        marker_0fc7ab05c66d4047ae0c37ec645e35ed.bindPopup(popup_55ad7f5529ed4f8ea04e33bd2594c484)
+        ;
+
+        
+    
+    
+            var marker_5002a1c3b4b547deb6a9df48f6df5bd1 = L.marker(
+                [17.45, 78.38],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_e4e60c38840a434a98942a2f5822ca6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5002a1c3b4b547deb6a9df48f6df5bd1.setIcon(icon_e4e60c38840a434a98942a2f5822ca6d);
+        
+    
+        var popup_ee28111b5bd94df0b1e8e476859c1a7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59f84447fa174a31812e234960845b64 = $(`<div id="html_59f84447fa174a31812e234960845b64" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Phoenix tower A, Opposite Trident Hotel, Madhapur Village</div>`)[0];
+            popup_ee28111b5bd94df0b1e8e476859c1a7b.setContent(html_59f84447fa174a31812e234960845b64);
+        
+
+        marker_5002a1c3b4b547deb6a9df48f6df5bd1.bindPopup(popup_ee28111b5bd94df0b1e8e476859c1a7b)
+        ;
+
+        
+    
+    
+            var marker_3648f100a67a4a3696b1e08d4072fd93 = L.marker(
+                [17.45, 78.38],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_ea6be4d9359747b887b663777c319211 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3648f100a67a4a3696b1e08d4072fd93.setIcon(icon_ea6be4d9359747b887b663777c319211);
+        
+    
+        var popup_a5e919cf71b543d88d2540627f1efcad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abcfa2bb2a8e45728ce3d94c2ec2476e = $(`<div id="html_abcfa2bb2a8e45728ce3d94c2ec2476e" style="width: 100.0%; height: 100.0%;">Mindspace, Hitech City</div>`)[0];
+            popup_a5e919cf71b543d88d2540627f1efcad.setContent(html_abcfa2bb2a8e45728ce3d94c2ec2476e);
+        
+
+        marker_3648f100a67a4a3696b1e08d4072fd93.bindPopup(popup_a5e919cf71b543d88d2540627f1efcad)
+        ;
+
+        
+    
+    
+            var marker_1b17050cb513448aa690d8884b7421e8 = L.marker(
+                [28.67, 77.13],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_c7ccf89c24af4dda816cc6105d2bbd6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b17050cb513448aa690d8884b7421e8.setIcon(icon_c7ccf89c24af4dda816cc6105d2bbd6a);
+        
+    
+        var popup_5f3951b5ea7d4c228d8bab562fc59764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bed74f4f69e04d17b248788d47fc6905 = $(`<div id="html_bed74f4f69e04d17b248788d47fc6905" style="width: 100.0%; height: 100.0%;">1/83, Ground Floor , Club Road, West Punjabi Bagh</div>`)[0];
+            popup_5f3951b5ea7d4c228d8bab562fc59764.setContent(html_bed74f4f69e04d17b248788d47fc6905);
+        
+
+        marker_1b17050cb513448aa690d8884b7421e8.bindPopup(popup_5f3951b5ea7d4c228d8bab562fc59764)
+        ;
+
+        
+    
+    
+            var marker_daa33f6a80464739a2688fbe417271ca = L.marker(
+                [28.57, 77.12],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f0f71439226c4591a5cd842a92fc6fb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_daa33f6a80464739a2688fbe417271ca.setIcon(icon_f0f71439226c4591a5cd842a92fc6fb1);
+        
+    
+        var popup_4247376c9c924911ab592ad7479849ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d9c4e1bb50684e0aa70aab53b9c27067 = $(`<div id="html_d9c4e1bb50684e0aa70aab53b9c27067" style="width: 100.0%; height: 100.0%;">IGI Airport</div>`)[0];
+            popup_4247376c9c924911ab592ad7479849ed.setContent(html_d9c4e1bb50684e0aa70aab53b9c27067);
+        
+
+        marker_daa33f6a80464739a2688fbe417271ca.bindPopup(popup_4247376c9c924911ab592ad7479849ed)
+        ;
+
+        
+    
+    
+            var marker_9039dad788254266992c92cafa22c790 = L.marker(
+                [28.46, 77.07],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f93ed600a09641e089243147fad12b16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9039dad788254266992c92cafa22c790.setIcon(icon_f93ed600a09641e089243147fad12b16);
+        
+    
+        var popup_de5e2f9cca9c47eea00a5718ebad2a90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b079627188e2451d968572c9aa5f11d7 = $(`<div id="html_b079627188e2451d968572c9aa5f11d7" style="width: 100.0%; height: 100.0%;">Ground Floor, South Wing, HUDA Metro Station</div>`)[0];
+            popup_de5e2f9cca9c47eea00a5718ebad2a90.setContent(html_b079627188e2451d968572c9aa5f11d7);
+        
+
+        marker_9039dad788254266992c92cafa22c790.bindPopup(popup_de5e2f9cca9c47eea00a5718ebad2a90)
+        ;
+
+        
+    
+    
+            var marker_d543cd5f6b0640d3a8ce06752d0f4277 = L.marker(
+                [28.57, 77.17],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_b1910d27cadd4737b45fecec1e8dda42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d543cd5f6b0640d3a8ce06752d0f4277.setIcon(icon_b1910d27cadd4737b45fecec1e8dda42);
+        
+    
+        var popup_9464e75bd75c48bca15efdb797f045e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06eb68a5e050458b9dcf8a4237cc95a9 = $(`<div id="html_06eb68a5e050458b9dcf8a4237cc95a9" style="width: 100.0%; height: 100.0%;">Sangam Courtyard, Major Somnath Marg, Sector 9, R.K Puram</div>`)[0];
+            popup_9464e75bd75c48bca15efdb797f045e9.setContent(html_06eb68a5e050458b9dcf8a4237cc95a9);
+        
+
+        marker_d543cd5f6b0640d3a8ce06752d0f4277.bindPopup(popup_9464e75bd75c48bca15efdb797f045e9)
+        ;
+
+        
+    
+    
+            var marker_32b5f23fb64c438abe9d7202679b5fa4 = L.marker(
+                [28.56, 77.12],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_7663e21e570642e4989c4148ec212005 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_32b5f23fb64c438abe9d7202679b5fa4.setIcon(icon_7663e21e570642e4989c4148ec212005);
+        
+    
+        var popup_9c40bd7bf4444456a9fb5b25389700ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c9d167c0b484ab2a2f9a2af6e45b67b = $(`<div id="html_8c9d167c0b484ab2a2f9a2af6e45b67b" style="width: 100.0%; height: 100.0%;">Domestic Departure, Terminal 1D</div>`)[0];
+            popup_9c40bd7bf4444456a9fb5b25389700ac.setContent(html_8c9d167c0b484ab2a2f9a2af6e45b67b);
+        
+
+        marker_32b5f23fb64c438abe9d7202679b5fa4.bindPopup(popup_9c40bd7bf4444456a9fb5b25389700ac)
+        ;
+
+        
+    
+    
+            var marker_b684e753e5444b5d8ea93970767f677b = L.marker(
+                [28.64, 77.11],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_61a8e6b028c04df8bd3e2eb22f3e57c0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b684e753e5444b5d8ea93970767f677b.setIcon(icon_61a8e6b028c04df8bd3e2eb22f3e57c0);
+        
+    
+        var popup_2925cc457b5f44fa9960d12419b37868 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da3cb4fa36674d6f9999eb44635a9ca3 = $(`<div id="html_da3cb4fa36674d6f9999eb44635a9ca3" style="width: 100.0%; height: 100.0%;">Ground Floor, Pacific Mall, Subhash Nagar</div>`)[0];
+            popup_2925cc457b5f44fa9960d12419b37868.setContent(html_da3cb4fa36674d6f9999eb44635a9ca3);
+        
+
+        marker_b684e753e5444b5d8ea93970767f677b.bindPopup(popup_2925cc457b5f44fa9960d12419b37868)
+        ;
+
+        
+    
+    
+            var marker_8c38ce60722b40208ef0c0dd58c8ae25 = L.marker(
+                [28.54, 77.16],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f0e46d124ce844dd9fc6183957d9c648 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c38ce60722b40208ef0c0dd58c8ae25.setIcon(icon_f0e46d124ce844dd9fc6183957d9c648);
+        
+    
+        var popup_5cd2380a3b12406cba90267cfecb6ae9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd9c7bb83eaa4bbe942a6dfaec9706a6 = $(`<div id="html_dd9c7bb83eaa4bbe942a6dfaec9706a6" style="width: 100.0%; height: 100.0%;">1st Floor, Ambience Mall, Nelson Mandela Marg</div>`)[0];
+            popup_5cd2380a3b12406cba90267cfecb6ae9.setContent(html_dd9c7bb83eaa4bbe942a6dfaec9706a6);
+        
+
+        marker_8c38ce60722b40208ef0c0dd58c8ae25.bindPopup(popup_5cd2380a3b12406cba90267cfecb6ae9)
+        ;
+
+        
+    
+    
+            var marker_5e2313ff26ec415da2f6a64b65bba017 = L.marker(
+                [28.53, 77.22],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_1911be2612b44e2ab273d9e5ad6b260c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e2313ff26ec415da2f6a64b65bba017.setIcon(icon_1911be2612b44e2ab273d9e5ad6b260c);
+        
+    
+        var popup_c9520fa30ce743758a062b1016a4e889 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_788d958b9d7a4fd6ad89217c8db26809 = $(`<div id="html_788d958b9d7a4fd6ad89217c8db26809" style="width: 100.0%; height: 100.0%;">Ground Floor, Select City Walk Mall</div>`)[0];
+            popup_c9520fa30ce743758a062b1016a4e889.setContent(html_788d958b9d7a4fd6ad89217c8db26809);
+        
+
+        marker_5e2313ff26ec415da2f6a64b65bba017.bindPopup(popup_c9520fa30ce743758a062b1016a4e889)
+        ;
+
+        
+    
+    
+            var marker_104b46e3622643e0992179171dfd5066 = L.marker(
+                [28.55, 77.25],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_ae8ec2a8dd8d4ded88f0144317c60a03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_104b46e3622643e0992179171dfd5066.setIcon(icon_ae8ec2a8dd8d4ded88f0144317c60a03);
+        
+    
+        var popup_b61147eb1b3c46a6a531c97770a4e714 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b31e4b3ee17448e7b509b6e12a9c44ff = $(`<div id="html_b31e4b3ee17448e7b509b6e12a9c44ff" style="width: 100.0%; height: 100.0%;">Lower Ground Floor, Nehru Place Metro Station</div>`)[0];
+            popup_b61147eb1b3c46a6a531c97770a4e714.setContent(html_b31e4b3ee17448e7b509b6e12a9c44ff);
+        
+
+        marker_104b46e3622643e0992179171dfd5066.bindPopup(popup_b61147eb1b3c46a6a531c97770a4e714)
+        ;
+
+        
+    
+    
+            var marker_02d1ba1533cb4f4cadf2960176a18978 = L.marker(
+                [28.63, 77.22],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f553e5a087f64b5fb12cfbcd4dfa548d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_02d1ba1533cb4f4cadf2960176a18978.setIcon(icon_f553e5a087f64b5fb12cfbcd4dfa548d);
+        
+    
+        var popup_6b7df14012b34496b7986741847aeab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23bc9f26958e47e3ab6c8a2b6f8f5abf = $(`<div id="html_23bc9f26958e47e3ab6c8a2b6f8f5abf" style="width: 100.0%; height: 100.0%;">Hamilton House, A Block, Inner Circle</div>`)[0];
+            popup_6b7df14012b34496b7986741847aeab8.setContent(html_23bc9f26958e47e3ab6c8a2b6f8f5abf);
+        
+
+        marker_02d1ba1533cb4f4cadf2960176a18978.bindPopup(popup_6b7df14012b34496b7986741847aeab8)
+        ;
+
+        
+    
+    
+            var marker_dd9d5d752ecd4cc19a9a2b89eaa25758 = L.marker(
+                [28.63, 77.22],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_6200d15f9fde421696661e2106ca2c0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd9d5d752ecd4cc19a9a2b89eaa25758.setIcon(icon_6200d15f9fde421696661e2106ca2c0b);
+        
+    
+        var popup_9f7e95c044cf4f57b06df7f38061b749 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06575eb60de84c2cbf0b40a6603a4c9b = $(`<div id="html_06575eb60de84c2cbf0b40a6603a4c9b" style="width: 100.0%; height: 100.0%;">N 16, N Block, Outer Circle, Connaught Place</div>`)[0];
+            popup_9f7e95c044cf4f57b06df7f38061b749.setContent(html_06575eb60de84c2cbf0b40a6603a4c9b);
+        
+
+        marker_dd9d5d752ecd4cc19a9a2b89eaa25758.bindPopup(popup_9f7e95c044cf4f57b06df7f38061b749)
+        ;
+
+        
+    
+    
+            var marker_955f129d89bf415d8171c3837926b093 = L.marker(
+                [28.54, 77.16],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_7a583b98b92140b89cac4ef26525c29f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_955f129d89bf415d8171c3837926b093.setIcon(icon_7a583b98b92140b89cac4ef26525c29f);
+        
+    
+        var popup_0811cad0ed7942e8bbe25ce723681c35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4696143ec87141fea06de754cd738e02 = $(`<div id="html_4696143ec87141fea06de754cd738e02" style="width: 100.0%; height: 100.0%;">First Floor, DLF Promenade, Vasant Kunj</div>`)[0];
+            popup_0811cad0ed7942e8bbe25ce723681c35.setContent(html_4696143ec87141fea06de754cd738e02);
+        
+
+        marker_955f129d89bf415d8171c3837926b093.bindPopup(popup_0811cad0ed7942e8bbe25ce723681c35)
+        ;
+
+        
+    
+    
+            var marker_88d07ba84b6a40679a88292b7dd92322 = L.marker(
+                [28.69, 77.15],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_7d62526557f640e38e57184c4b5c3dff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88d07ba84b6a40679a88292b7dd92322.setIcon(icon_7d62526557f640e38e57184c4b5c3dff);
+        
+    
+        var popup_da633f4819a841d69d8dfedbd143bb12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b04c3afa4840e3a8d7e8159e11d376 = $(`<div id="html_81b04c3afa4840e3a8d7e8159e11d376" style="width: 100.0%; height: 100.0%;">Ground Floor, HB Twin Towers, Netaji Subhash Pl, Pitampura</div>`)[0];
+            popup_da633f4819a841d69d8dfedbd143bb12.setContent(html_81b04c3afa4840e3a8d7e8159e11d376);
+        
+
+        marker_88d07ba84b6a40679a88292b7dd92322.bindPopup(popup_da633f4819a841d69d8dfedbd143bb12)
+        ;
+
+        
+    
+    
+            var marker_338df48be277433189e699eb0a2e72e6 = L.marker(
+                [28.55, 77.24],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_517d167c97484b4eb618c4f7256b7f39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_338df48be277433189e699eb0a2e72e6.setIcon(icon_517d167c97484b4eb618c4f7256b7f39);
+        
+    
+        var popup_00e1c9b190a64d33be95ead6746e4edc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b57bdbd6a464f7c822012588cc652fb = $(`<div id="html_9b57bdbd6a464f7c822012588cc652fb" style="width: 100.0%; height: 100.0%;">M Block Market, Greater Kailash 1</div>`)[0];
+            popup_00e1c9b190a64d33be95ead6746e4edc.setContent(html_9b57bdbd6a464f7c822012588cc652fb);
+        
+
+        marker_338df48be277433189e699eb0a2e72e6.bindPopup(popup_00e1c9b190a64d33be95ead6746e4edc)
+        ;
+
+        
+    
+    
+            var marker_349953fdc6f34880af11a80faa00a6db = L.marker(
+                [28.56, 77.1],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_673b3c9b420e487b9961ab8878da31ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_349953fdc6f34880af11a80faa00a6db.setIcon(icon_673b3c9b420e487b9961ab8878da31ac);
+        
+    
+        var popup_2f49433802bc4ea38c600ccdc07cb2e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4ccfb086aff41bd9ce5703ff7655065 = $(`<div id="html_a4ccfb086aff41bd9ce5703ff7655065" style="width: 100.0%; height: 100.0%;">International Departure, Near Gate 15, Terminal  3</div>`)[0];
+            popup_2f49433802bc4ea38c600ccdc07cb2e6.setContent(html_a4ccfb086aff41bd9ce5703ff7655065);
+        
+
+        marker_349953fdc6f34880af11a80faa00a6db.bindPopup(popup_2f49433802bc4ea38c600ccdc07cb2e6)
+        ;
+
+        
+    
+    
+            var marker_6cb8158f2ee3497da8599b0068f64f3f = L.marker(
+                [28.56, 77.1],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_a927a79ba1f0460eb28a2ccdefa41eb8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6cb8158f2ee3497da8599b0068f64f3f.setIcon(icon_a927a79ba1f0460eb28a2ccdefa41eb8);
+        
+    
+        var popup_c435bb0d4a804475a2a29204eb3c3b99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_820b7cb2c42f4d81bcce938044519a09 = $(`<div id="html_820b7cb2c42f4d81bcce938044519a09" style="width: 100.0%; height: 100.0%;">Domestic Departure, Near Gate 27, Terminal  3</div>`)[0];
+            popup_c435bb0d4a804475a2a29204eb3c3b99.setContent(html_820b7cb2c42f4d81bcce938044519a09);
+        
+
+        marker_6cb8158f2ee3497da8599b0068f64f3f.bindPopup(popup_c435bb0d4a804475a2a29204eb3c3b99)
+        ;
+
+        
+    
+    
+            var marker_c893d897a42d400a9f237d9d18869611 = L.marker(
+                [28.55, 77.19],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_9cc42f4e89254c6b9693c7380332f5fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c893d897a42d400a9f237d9d18869611.setIcon(icon_9cc42f4e89254c6b9693c7380332f5fb);
+        
+    
+        var popup_2b2a7097bc384e10894d8f64099758ef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fe29a8aa26340d59ed698ccb2648149 = $(`<div id="html_0fe29a8aa26340d59ed698ccb2648149" style="width: 100.0%; height: 100.0%;">Ground Floor, Power House, Hauz Khas Village, Hauz Khas</div>`)[0];
+            popup_2b2a7097bc384e10894d8f64099758ef.setContent(html_0fe29a8aa26340d59ed698ccb2648149);
+        
+
+        marker_c893d897a42d400a9f237d9d18869611.bindPopup(popup_2b2a7097bc384e10894d8f64099758ef)
+        ;
+
+        
+    
+    
+            var marker_92eb5a87e54446f28a4d16d2e9534e65 = L.marker(
+                [28.53, 77.24],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_bab49a95064347ec8cdf9142b7b429d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_92eb5a87e54446f28a4d16d2e9534e65.setIcon(icon_bab49a95064347ec8cdf9142b7b429d2);
+        
+    
+        var popup_2060e8f04bd647cda3b0009677b24740 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a03c5b07db2140ecac6d60558d1c4d00 = $(`<div id="html_a03c5b07db2140ecac6d60558d1c4d00" style="width: 100.0%; height: 100.0%;">Ground Floor, M-11, M-Block, Main Mrkt, Greater Kailash Pt2</div>`)[0];
+            popup_2060e8f04bd647cda3b0009677b24740.setContent(html_a03c5b07db2140ecac6d60558d1c4d00);
+        
+
+        marker_92eb5a87e54446f28a4d16d2e9534e65.bindPopup(popup_2060e8f04bd647cda3b0009677b24740)
+        ;
+
+        
+    
+    
+            var marker_b5287ef91c3d4350b4e345f1f5ebe575 = L.marker(
+                [28.48, 77.08],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_00f9b368cdc04d83a30d8b8781d82caf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b5287ef91c3d4350b4e345f1f5ebe575.setIcon(icon_00f9b368cdc04d83a30d8b8781d82caf);
+        
+    
+        var popup_663c49290af94af5b7244349d24757be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fbfcc897766458e8de4da695917a85c = $(`<div id="html_8fbfcc897766458e8de4da695917a85c" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, MGF Metropolis, M G Road</div>`)[0];
+            popup_663c49290af94af5b7244349d24757be.setContent(html_8fbfcc897766458e8de4da695917a85c);
+        
+
+        marker_b5287ef91c3d4350b4e345f1f5ebe575.bindPopup(popup_663c49290af94af5b7244349d24757be)
+        ;
+
+        
+    
+    
+            var marker_d7d51ebe92a346379efa1af2c94a6493 = L.marker(
+                [28.47, 77.06],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_21b45c8c97924e17a4ec7b42d192b10c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7d51ebe92a346379efa1af2c94a6493.setIcon(icon_21b45c8c97924e17a4ec7b42d192b10c);
+        
+    
+        var popup_1afe4bdfb80e4434bf90a816753064e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df5274c77518413da2a867b5cf003073 = $(`<div id="html_df5274c77518413da2a867b5cf003073" style="width: 100.0%; height: 100.0%;">SCO 39, Ground Floor, Sector 29</div>`)[0];
+            popup_1afe4bdfb80e4434bf90a816753064e3.setContent(html_df5274c77518413da2a867b5cf003073);
+        
+
+        marker_d7d51ebe92a346379efa1af2c94a6493.bindPopup(popup_1afe4bdfb80e4434bf90a816753064e3)
+        ;
+
+        
+    
+    
+            var marker_eb574166187d49dfa853a67d609988c2 = L.marker(
+                [28.48, 77.09],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_4a0cebddc1224666aac9a8b36ff7c2d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_eb574166187d49dfa853a67d609988c2.setIcon(icon_4a0cebddc1224666aac9a8b36ff7c2d6);
+        
+    
+        var popup_f75c9ea2d08a44bea8abe4b8a075b5f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3976ac1d396a4d46966c059c56b2d69d = $(`<div id="html_3976ac1d396a4d46966c059c56b2d69d" style="width: 100.0%; height: 100.0%;">Golf Course Road</div>`)[0];
+            popup_f75c9ea2d08a44bea8abe4b8a075b5f3.setContent(html_3976ac1d396a4d46966c059c56b2d69d);
+        
+
+        marker_eb574166187d49dfa853a67d609988c2.bindPopup(popup_f75c9ea2d08a44bea8abe4b8a075b5f3)
+        ;
+
+        
+    
+    
+            var marker_4c30a53442684ed69bcd98e1e6d40ad6 = L.marker(
+                [28.5, 77.09],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_ae8dbc979de3448781f3376c5ebd9fec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4c30a53442684ed69bcd98e1e6d40ad6.setIcon(icon_ae8dbc979de3448781f3376c5ebd9fec);
+        
+    
+        var popup_bda43da8e5614f719cf2a51f45eaafe8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0db0a28ad54048c1abe1720af3d9b5f8 = $(`<div id="html_0db0a28ad54048c1abe1720af3d9b5f8" style="width: 100.0%; height: 100.0%;">Ground Floor, DLF Cyber Hub, Phase II</div>`)[0];
+            popup_bda43da8e5614f719cf2a51f45eaafe8.setContent(html_0db0a28ad54048c1abe1720af3d9b5f8);
+        
+
+        marker_4c30a53442684ed69bcd98e1e6d40ad6.bindPopup(popup_bda43da8e5614f719cf2a51f45eaafe8)
+        ;
+
+        
+    
+    
+            var marker_fb256a713bb04aa3a1ba440cf9ecff3c = L.marker(
+                [28.5, 77.1],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_212d74c0754841e49672db568a37462c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fb256a713bb04aa3a1ba440cf9ecff3c.setIcon(icon_212d74c0754841e49672db568a37462c);
+        
+    
+        var popup_48934ee5428d432da24fcd590790734c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bc2b0483f694546b01fbb73a55eea7e = $(`<div id="html_2bc2b0483f694546b01fbb73a55eea7e" style="width: 100.0%; height: 100.0%;">Ground Floor, Ambience Mall, Ambience Island, NH 8</div>`)[0];
+            popup_48934ee5428d432da24fcd590790734c.setContent(html_2bc2b0483f694546b01fbb73a55eea7e);
+        
+
+        marker_fb256a713bb04aa3a1ba440cf9ecff3c.bindPopup(popup_48934ee5428d432da24fcd590790734c)
+        ;
+
+        
+    
+    
+            var marker_a1aecaa2c7d045cc9efb4d633b56f8c7 = L.marker(
+                [28.41, 77.05],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_ba1ef08e099449c48c676649c8e998fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a1aecaa2c7d045cc9efb4d633b56f8c7.setIcon(icon_ba1ef08e099449c48c676649c8e998fa);
+        
+    
+        var popup_4b675339b7874853811105eb561635bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d081f80174404021a7673545b20221c1 = $(`<div id="html_d081f80174404021a7673545b20221c1" style="width: 100.0%; height: 100.0%;">Grd Flr, Block C, Vatika Business Park, Sector 49, Sohna Road</div>`)[0];
+            popup_4b675339b7874853811105eb561635bf.setContent(html_d081f80174404021a7673545b20221c1);
+        
+
+        marker_a1aecaa2c7d045cc9efb4d633b56f8c7.bindPopup(popup_4b675339b7874853811105eb561635bf)
+        ;
+
+        
+    
+    
+            var marker_6137347fbd1440ba941411726f700206 = L.marker(
+                [13.01, 77.56],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_c809948745564d848e1c9b0b424fde56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6137347fbd1440ba941411726f700206.setIcon(icon_c809948745564d848e1c9b0b424fde56);
+        
+    
+        var popup_b35de28a2ac34d27a62b236904e40f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3213b13396ec48048eef81656013f482 = $(`<div id="html_3213b13396ec48048eef81656013f482" style="width: 100.0%; height: 100.0%;">Grd Flr Orion Mall, Brigade Gateway, Dr Rajkumar Road, Malleswaram</div>`)[0];
+            popup_b35de28a2ac34d27a62b236904e40f91.setContent(html_3213b13396ec48048eef81656013f482);
+        
+
+        marker_6137347fbd1440ba941411726f700206.bindPopup(popup_b35de28a2ac34d27a62b236904e40f91)
+        ;
+
+        
+    
+    
+            var marker_5e60f6fe6ccd4a0e96cc13e44b9b3917 = L.marker(
+                [12.91, 77.59],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_0c5bc13e64f24162b33cfdfc80f230ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e60f6fe6ccd4a0e96cc13e44b9b3917.setIcon(icon_0c5bc13e64f24162b33cfdfc80f230ee);
+        
+    
+        var popup_92bba2bca3fb4af6897d950e64bfe4e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_296bef0292814a43856e46c5ecd8031b = $(`<div id="html_296bef0292814a43856e46c5ecd8031b" style="width: 100.0%; height: 100.0%;">100 feet ring road, K.A.S Officer, KAS Off HBCS layout,4th Phase,JP Nagar</div>`)[0];
+            popup_92bba2bca3fb4af6897d950e64bfe4e5.setContent(html_296bef0292814a43856e46c5ecd8031b);
+        
+
+        marker_5e60f6fe6ccd4a0e96cc13e44b9b3917.bindPopup(popup_92bba2bca3fb4af6897d950e64bfe4e5)
+        ;
+
+        
+    
+    
+            var marker_489ba469525b4affa74d7533fa0f03d0 = L.marker(
+                [13.0, 77.7],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_4de0ff2603bd4e2d9b4c86c063ca8c03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_489ba469525b4affa74d7533fa0f03d0.setIcon(icon_4de0ff2603bd4e2d9b4c86c063ca8c03);
+        
+    
+        var popup_5146a144ba304a24b83c9f185bfa43f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_414e8dcc4cb84ab6ba4c3f1a7aa8e391 = $(`<div id="html_414e8dcc4cb84ab6ba4c3f1a7aa8e391" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Phoenix Market City,, Whitefield Road, Mahadevapura</div>`)[0];
+            popup_5146a144ba304a24b83c9f185bfa43f1.setContent(html_414e8dcc4cb84ab6ba4c3f1a7aa8e391);
+        
+
+        marker_489ba469525b4affa74d7533fa0f03d0.bindPopup(popup_5146a144ba304a24b83c9f185bfa43f1)
+        ;
+
+        
+    
+    
+            var marker_54790482ffb74e3fa5e7d71a86b60813 = L.marker(
+                [12.94, 77.61],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_079cf2ea3c2f420982de5ff85bc6cae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_54790482ffb74e3fa5e7d71a86b60813.setIcon(icon_079cf2ea3c2f420982de5ff85bc6cae9);
+        
+    
+        var popup_a278d7859b994b90898a3e6366a88bef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_99b72cba315e40d9a0a43d8685754860 = $(`<div id="html_99b72cba315e40d9a0a43d8685754860" style="width: 100.0%; height: 100.0%;">Ground Floor, 7th block, Near Forum Mall, Koramangla Industrial Layout</div>`)[0];
+            popup_a278d7859b994b90898a3e6366a88bef.setContent(html_99b72cba315e40d9a0a43d8685754860);
+        
+
+        marker_54790482ffb74e3fa5e7d71a86b60813.bindPopup(popup_a278d7859b994b90898a3e6366a88bef)
+        ;
+
+        
+    
+    
+            var marker_9977a153e2564773b21fc343a4ff0315 = L.marker(
+                [12.97, 77.64],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_e68c643043c34fd8a0507db813a736f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_9977a153e2564773b21fc343a4ff0315.setIcon(icon_e68c643043c34fd8a0507db813a736f1);
+        
+    
+        var popup_5871d610b5664fa29fb2e51e9f70f052 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f57ad9a5019e409f9812bb6ea4032176 = $(`<div id="html_f57ad9a5019e409f9812bb6ea4032176" style="width: 100.0%; height: 100.0%;">Grd Flr, Samrat Bldg, HAL II Stage, 100 ft Rd, Indiranagar</div>`)[0];
+            popup_5871d610b5664fa29fb2e51e9f70f052.setContent(html_f57ad9a5019e409f9812bb6ea4032176);
+        
+
+        marker_9977a153e2564773b21fc343a4ff0315.bindPopup(popup_5871d610b5664fa29fb2e51e9f70f052)
+        ;
+
+        
+    
+    
+            var marker_88b0dfb6b538431ea5de4cf99df58a35 = L.marker(
+                [12.99, 77.57],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_621a2ce1b50949048d5654802e4c05c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_88b0dfb6b538431ea5de4cf99df58a35.setIcon(icon_621a2ce1b50949048d5654802e4c05c2);
+        
+    
+        var popup_e3abb1a8eb7c4cb79147c7c227bb2469 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_741be97d27d1461e9bab3a014e765411 = $(`<div id="html_741be97d27d1461e9bab3a014e765411" style="width: 100.0%; height: 100.0%;">Upper grd flr,Mantri Mall,Mantri Sq No1, Sampangiram Nagar, Malleswaram</div>`)[0];
+            popup_e3abb1a8eb7c4cb79147c7c227bb2469.setContent(html_741be97d27d1461e9bab3a014e765411);
+        
+
+        marker_88b0dfb6b538431ea5de4cf99df58a35.bindPopup(popup_e3abb1a8eb7c4cb79147c7c227bb2469)
+        ;
+
+        
+    
+    
+            var marker_1b6cebb2526545c6b4f9b94c9facbe8c = L.marker(
+                [13.01, 77.58],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_da3860444f8c4517939f5f32499526bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1b6cebb2526545c6b4f9b94c9facbe8c.setIcon(icon_da3860444f8c4517939f5f32499526bc);
+        
+    
+        var popup_9ce3a0237d654e1da044b5abb1819a5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a93ee86b0cc476c839a3030ea84175f = $(`<div id="html_3a93ee86b0cc476c839a3030ea84175f" style="width: 100.0%; height: 100.0%;">403, Ground Floor, 8th Main Road, Sadashiv Nagar</div>`)[0];
+            popup_9ce3a0237d654e1da044b5abb1819a5d.setContent(html_3a93ee86b0cc476c839a3030ea84175f);
+        
+
+        marker_1b6cebb2526545c6b4f9b94c9facbe8c.bindPopup(popup_9ce3a0237d654e1da044b5abb1819a5d)
+        ;
+
+        
+    
+    
+            var marker_1687e89657404ab09fbbc13d3fe8ee4d = L.marker(
+                [12.99, 77.73],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_6ed5601768bf46eeb4135e21179955c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1687e89657404ab09fbbc13d3fe8ee4d.setIcon(icon_6ed5601768bf46eeb4135e21179955c6);
+        
+    
+        var popup_7573cf8aa9e749a8aa8373b3ea15d0ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_55dcbbefc0974d7ca2298b1b329f5a1f = $(`<div id="html_55dcbbefc0974d7ca2298b1b329f5a1f" style="width: 100.0%; height: 100.0%;">Ground floor, Prestige Shantiniketan, Crescent 4, Whitefield Main Road</div>`)[0];
+            popup_7573cf8aa9e749a8aa8373b3ea15d0ea.setContent(html_55dcbbefc0974d7ca2298b1b329f5a1f);
+        
+
+        marker_1687e89657404ab09fbbc13d3fe8ee4d.bindPopup(popup_7573cf8aa9e749a8aa8373b3ea15d0ea)
+        ;
+
+        
+    
+    
+            var marker_4f38a14b09de4da5985d2c97388ef4d4 = L.marker(
+                [12.99, 77.66],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_d7f4bc6eb99b441bb571dac6c04067d5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f38a14b09de4da5985d2c97388ef4d4.setIcon(icon_d7f4bc6eb99b441bb571dac6c04067d5);
+        
+    
+        var popup_0fe59ab7274441aeb65716ba38c72560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bb515a6c4ac04d5687eba52a9c535be4 = $(`<div id="html_bb515a6c4ac04d5687eba52a9c535be4" style="width: 100.0%; height: 100.0%;">Ground Floor, RMZ Infinity, The Bay, #3 Old Madras Road, Benniganahalli</div>`)[0];
+            popup_0fe59ab7274441aeb65716ba38c72560.setContent(html_bb515a6c4ac04d5687eba52a9c535be4);
+        
+
+        marker_4f38a14b09de4da5985d2c97388ef4d4.bindPopup(popup_0fe59ab7274441aeb65716ba38c72560)
+        ;
+
+        
+    
+    
+            var marker_11e5e59b99a444fb8f21a2088dd32838 = L.marker(
+                [12.97, 77.61],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_d7507d672d5a4fa689fd20066ae44b32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_11e5e59b99a444fb8f21a2088dd32838.setIcon(icon_d7507d672d5a4fa689fd20066ae44b32);
+        
+    
+        var popup_8f829c7da40f48d8a1afcabae63972d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b70dcb61ac0440599adc1bb169c58260 = $(`<div id="html_b70dcb61ac0440599adc1bb169c58260" style="width: 100.0%; height: 100.0%;">Ground Floor, Prestige RR Building, 55 and 51/1 Church Street</div>`)[0];
+            popup_8f829c7da40f48d8a1afcabae63972d8.setContent(html_b70dcb61ac0440599adc1bb169c58260);
+        
+
+        marker_11e5e59b99a444fb8f21a2088dd32838.bindPopup(popup_8f829c7da40f48d8a1afcabae63972d8)
+        ;
+
+        
+    
+    
+            var marker_da64c39606ca41118092186202c13a8d = L.marker(
+                [19.01, 72.82],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_9fa5dc01585e4c698854ef4302200c83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_da64c39606ca41118092186202c13a8d.setIcon(icon_9fa5dc01585e4c698854ef4302200c83);
+        
+    
+        var popup_695b414547c74c35868cb300ef1421fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a54e046c10ec408aa717e98127d13767 = $(`<div id="html_a54e046c10ec408aa717e98127d13767" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Century Bhavan, Century Bazaar, Prabhadevi</div>`)[0];
+            popup_695b414547c74c35868cb300ef1421fe.setContent(html_a54e046c10ec408aa717e98127d13767);
+        
+
+        marker_da64c39606ca41118092186202c13a8d.bindPopup(popup_695b414547c74c35868cb300ef1421fe)
+        ;
+
+        
+    
+    
+            var marker_4bc412b8428449e292f5641e3732039a = L.marker(
+                [19.18, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_e99f780f6af94c018429712bd45c20eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4bc412b8428449e292f5641e3732039a.setIcon(icon_e99f780f6af94c018429712bd45c20eb);
+        
+    
+        var popup_15313376da5f4e2ea73672ad3aca77a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3519f6bd6bcc45b983224fdd9d95f3b3 = $(`<div id="html_3519f6bd6bcc45b983224fdd9d95f3b3" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Infiniti Mall, Link Road,  Malad (West)</div>`)[0];
+            popup_15313376da5f4e2ea73672ad3aca77a5.setContent(html_3519f6bd6bcc45b983224fdd9d95f3b3);
+        
+
+        marker_4bc412b8428449e292f5641e3732039a.bindPopup(popup_15313376da5f4e2ea73672ad3aca77a5)
+        ;
+
+        
+    
+    
+            var marker_4f54cdf34a3a4357970af03636c8643d = L.marker(
+                [19.08, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_cd9f3000a93748629c2ac3957a0601d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4f54cdf34a3a4357970af03636c8643d.setIcon(icon_cd9f3000a93748629c2ac3957a0601d6);
+        
+    
+        var popup_06761a1807e6465da9f3a17fc50f0f9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_612986ec67ab479495d9266216f5b778 = $(`<div id="html_612986ec67ab479495d9266216f5b778" style="width: 100.0%; height: 100.0%;">Grd Flr Red Chillies Entertainment Bldg, Jct of 15th Rd and Ram Krishna MissionRd</div>`)[0];
+            popup_06761a1807e6465da9f3a17fc50f0f9a.setContent(html_612986ec67ab479495d9266216f5b778);
+        
+
+        marker_4f54cdf34a3a4357970af03636c8643d.bindPopup(popup_06761a1807e6465da9f3a17fc50f0f9a)
+        ;
+
+        
+    
+    
+            var marker_c071cb557c5a44bb865e0e44ecc80c66 = L.marker(
+                [18.93, 72.82],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_43d7afe457844bf7b9eff658f12f918e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c071cb557c5a44bb865e0e44ecc80c66.setIcon(icon_43d7afe457844bf7b9eff658f12f918e);
+        
+    
+        var popup_f3420ed0d1404e098447b2083836f39f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e19280d842d41a19676cc6e06b3d0a1 = $(`<div id="html_0e19280d842d41a19676cc6e06b3d0a1" style="width: 100.0%; height: 100.0%;">Ground Floor, Shree Nirmal Building, Behind Trident Hotel, Nariman Point</div>`)[0];
+            popup_f3420ed0d1404e098447b2083836f39f.setContent(html_0e19280d842d41a19676cc6e06b3d0a1);
+        
+
+        marker_c071cb557c5a44bb865e0e44ecc80c66.bindPopup(popup_f3420ed0d1404e098447b2083836f39f)
+        ;
+
+        
+    
+    
+            var marker_8c7e0fcfb2824981ac05120fce7d886e = L.marker(
+                [19.13, 72.82],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_e9ec369ed4a54cd89db20f47049c4ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c7e0fcfb2824981ac05120fce7d886e.setIcon(icon_e9ec369ed4a54cd89db20f47049c4ab2);
+        
+    
+        var popup_86926d6b16834b8e8081278d1bf97290 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5cbd65cc46804639b88bf428c311b8d4 = $(`<div id="html_5cbd65cc46804639b88bf428c311b8d4" style="width: 100.0%; height: 100.0%;">Kokilaben Dhirubhai Ambani Hospital, Four Bunglows, Andheri (West)</div>`)[0];
+            popup_86926d6b16834b8e8081278d1bf97290.setContent(html_5cbd65cc46804639b88bf428c311b8d4);
+        
+
+        marker_8c7e0fcfb2824981ac05120fce7d886e.bindPopup(popup_86926d6b16834b8e8081278d1bf97290)
+        ;
+
+        
+    
+    
+            var marker_0e2a3d8ea7ba487a9da6daf74021c626 = L.marker(
+                [18.93, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_8555c99979d34327a3786d7ae9f70cad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0e2a3d8ea7ba487a9da6daf74021c626.setIcon(icon_8555c99979d34327a3786d7ae9f70cad);
+        
+    
+        var popup_127b4cbdda01447daf26c6e3ae76416c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1eb37495ffbf4695a53a0ab62d61a3f9 = $(`<div id="html_1eb37495ffbf4695a53a0ab62d61a3f9" style="width: 100.0%; height: 100.0%;">Elphinstone Building, Horniman Circle, Veer Nariman Road, Fort</div>`)[0];
+            popup_127b4cbdda01447daf26c6e3ae76416c.setContent(html_1eb37495ffbf4695a53a0ab62d61a3f9);
+        
+
+        marker_0e2a3d8ea7ba487a9da6daf74021c626.bindPopup(popup_127b4cbdda01447daf26c6e3ae76416c)
+        ;
+
+        
+    
+    
+            var marker_0230058479e3424d91fdf09a040f62bf = L.marker(
+                [19.05, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f4ea6ddd89694e0b9bdd414111518526 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0230058479e3424d91fdf09a040f62bf.setIcon(icon_f4ea6ddd89694e0b9bdd414111518526);
+        
+    
+        var popup_83c11f309aab4c19b04fd925e3d5b7dc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef9820a5d7fc4c699421aaecb37ca4fb = $(`<div id="html_ef9820a5d7fc4c699421aaecb37ca4fb" style="width: 100.0%; height: 100.0%;">Reclamation, Chapel Road, Near Lilavati Hospital</div>`)[0];
+            popup_83c11f309aab4c19b04fd925e3d5b7dc.setContent(html_ef9820a5d7fc4c699421aaecb37ca4fb);
+        
+
+        marker_0230058479e3424d91fdf09a040f62bf.bindPopup(popup_83c11f309aab4c19b04fd925e3d5b7dc)
+        ;
+
+        
+    
+    
+            var marker_e081f40261524c0bb085d6c4151dbe34 = L.marker(
+                [19.14, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_35ccb9b671474201b8614f62bef08ff6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e081f40261524c0bb085d6c4151dbe34.setIcon(icon_35ccb9b671474201b8614f62bef08ff6);
+        
+    
+        var popup_22d46f8433124576b9e2072f86277c0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d5f0cd480d64df2be82fe3055bc13e9 = $(`<div id="html_4d5f0cd480d64df2be82fe3055bc13e9" style="width: 100.0%; height: 100.0%;">Ground Floor, Infiniti Mall, New Link Road, Andheri (West)</div>`)[0];
+            popup_22d46f8433124576b9e2072f86277c0e.setContent(html_4d5f0cd480d64df2be82fe3055bc13e9);
+        
+
+        marker_e081f40261524c0bb085d6c4151dbe34.bindPopup(popup_22d46f8433124576b9e2072f86277c0e)
+        ;
+
+        
+    
+    
+            var marker_0891cb7f5639442b8d1f15150c5efa61 = L.marker(
+                [19.1, 72.92],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_f5ae7e6c46b449b2a5ea17a0a16d0eb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0891cb7f5639442b8d1f15150c5efa61.setIcon(icon_f5ae7e6c46b449b2a5ea17a0a16d0eb4);
+        
+    
+        var popup_c573cf54eb4e489d84f71893897743ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca6e53318b5742ab849de3fba03b40e5 = $(`<div id="html_ca6e53318b5742ab849de3fba03b40e5" style="width: 100.0%; height: 100.0%;">Gound Floor, R City Mall, Lal Bahadur Shastri Marg</div>`)[0];
+            popup_c573cf54eb4e489d84f71893897743ce.setContent(html_ca6e53318b5742ab849de3fba03b40e5);
+        
+
+        marker_0891cb7f5639442b8d1f15150c5efa61.bindPopup(popup_c573cf54eb4e489d84f71893897743ce)
+        ;
+
+        
+    
+    
+            var marker_adb4e234feea44d1bee5c05572b1ecfc = L.marker(
+                [19.21, 72.97],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_e162bb8d8b17464dbf7ef0c981617d70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adb4e234feea44d1bee5c05572b1ecfc.setIcon(icon_e162bb8d8b17464dbf7ef0c981617d70);
+        
+    
+        var popup_4df6fdaa6289473b82411440031e48ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca686a80481d41e1861e12410260646a = $(`<div id="html_ca686a80481d41e1861e12410260646a" style="width: 100.0%; height: 100.0%;">Ground Floor, Viviana Mall, Thane West, Opp Eastern Express Highway</div>`)[0];
+            popup_4df6fdaa6289473b82411440031e48ab.setContent(html_ca686a80481d41e1861e12410260646a);
+        
+
+        marker_adb4e234feea44d1bee5c05572b1ecfc.bindPopup(popup_4df6fdaa6289473b82411440031e48ab)
+        ;
+
+        
+    
+    
+            var marker_21af83729ef74de282d00b642e2b5a77 = L.marker(
+                [19.01, 72.84],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_b4856b0e6d7645f4a0182a44fd9e4fce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_21af83729ef74de282d00b642e2b5a77.setIcon(icon_b4856b0e6d7645f4a0182a44fd9e4fce);
+        
+    
+        var popup_394b7af86b2d4378927eb2d9da8a512b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea2934c6728647d0bf0d4ead5f29ca8d = $(`<div id="html_ea2934c6728647d0bf0d4ead5f29ca8d" style="width: 100.0%; height: 100.0%;">First Floor, Tower 2 Lobby, Indiabulls Finance Centre</div>`)[0];
+            popup_394b7af86b2d4378927eb2d9da8a512b.setContent(html_ea2934c6728647d0bf0d4ead5f29ca8d);
+        
+
+        marker_21af83729ef74de282d00b642e2b5a77.bindPopup(popup_394b7af86b2d4378927eb2d9da8a512b)
+        ;
+
+        
+    
+    
+            var marker_12373620064a46bb81e30309cdb42cb5 = L.marker(
+                [19.1, 72.87],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_622b973d90b24cf894f712f025b57223 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_12373620064a46bb81e30309cdb42cb5.setIcon(icon_622b973d90b24cf894f712f025b57223);
+        
+    
+        var popup_d348bbf47db1461596ca94b1b52afd07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19a671d36bb041ac8c8ef641500b32a7 = $(`<div id="html_19a671d36bb041ac8c8ef641500b32a7" style="width: 100.0%; height: 100.0%;">International Arrivals, Andheri (East)</div>`)[0];
+            popup_d348bbf47db1461596ca94b1b52afd07.setContent(html_19a671d36bb041ac8c8ef641500b32a7);
+        
+
+        marker_12373620064a46bb81e30309cdb42cb5.bindPopup(popup_d348bbf47db1461596ca94b1b52afd07)
+        ;
+
+        
+    
+    
+            var marker_5b17aaf395444605a8188288cbdad13c = L.marker(
+                [19.06, 72.85],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_904ea52dd3a144b1bca0a9e82933b421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5b17aaf395444605a8188288cbdad13c.setIcon(icon_904ea52dd3a144b1bca0a9e82933b421);
+        
+    
+        var popup_f7bbf0b37bb54f8e9e93345b40ea6e74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee23034d3fc743bfa9eb92ac72aac594 = $(`<div id="html_ee23034d3fc743bfa9eb92ac72aac594" style="width: 100.0%; height: 100.0%;">A wing, Ground Floor, One BKC, G Block,BandraBurlaComplex,BandraEast</div>`)[0];
+            popup_f7bbf0b37bb54f8e9e93345b40ea6e74.setContent(html_ee23034d3fc743bfa9eb92ac72aac594);
+        
+
+        marker_5b17aaf395444605a8188288cbdad13c.bindPopup(popup_f7bbf0b37bb54f8e9e93345b40ea6e74)
+        ;
+
+        
+    
+    
+            var marker_2c96c0f91ab04f259ae21ba8c5e2f830 = L.marker(
+                [19.2, 72.97],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_b9d768916a8f418587a49be0a8f04633 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c96c0f91ab04f259ae21ba8c5e2f830.setIcon(icon_b9d768916a8f418587a49be0a8f04633);
+        
+    
+        var popup_0f924196056c4041a28c6fa913a22298 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5c71d9198ef46b19f4250fc3397d668 = $(`<div id="html_b5c71d9198ef46b19f4250fc3397d668" style="width: 100.0%; height: 100.0%;">Upper Ground Level, Korum Mall, Off Eastern Express highway</div>`)[0];
+            popup_0f924196056c4041a28c6fa913a22298.setContent(html_b5c71d9198ef46b19f4250fc3397d668);
+        
+
+        marker_2c96c0f91ab04f259ae21ba8c5e2f830.bindPopup(popup_0f924196056c4041a28c6fa913a22298)
+        ;
+
+        
+    
+    
+            var marker_7a41f07c5d5646e0b74e9ba35f26ba09 = L.marker(
+                [19.09, 72.92],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_2e932e148b0f4cf5ad9811f1e9bd12dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7a41f07c5d5646e0b74e9ba35f26ba09.setIcon(icon_2e932e148b0f4cf5ad9811f1e9bd12dd);
+        
+    
+        var popup_93b491ab666b413ba09e54f67a09145a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8255f60de9204d08839dfcb53d8d7dd0 = $(`<div id="html_8255f60de9204d08839dfcb53d8d7dd0" style="width: 100.0%; height: 100.0%;">Ground Floor, Godrej One Building, Pirojshanagar, Vikhroli (East)</div>`)[0];
+            popup_93b491ab666b413ba09e54f67a09145a.setContent(html_8255f60de9204d08839dfcb53d8d7dd0);
+        
+
+        marker_7a41f07c5d5646e0b74e9ba35f26ba09.bindPopup(popup_93b491ab666b413ba09e54f67a09145a)
+        ;
+
+        
+    
+    
+            var marker_935f7e6c2a6f48378e531469ae36fc67 = L.marker(
+                [19.0, 72.82],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_1a55b999fdf5454f9a6e803f3dd64221 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_935f7e6c2a6f48378e531469ae36fc67.setIcon(icon_1a55b999fdf5454f9a6e803f3dd64221);
+        
+    
+        var popup_d6da815fac7e4c33a319e8241cb6e18b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b35f37df2a714746a2c07e6b60ee58b9 = $(`<div id="html_b35f37df2a714746a2c07e6b60ee58b9" style="width: 100.0%; height: 100.0%;">First floor, High Street Phoenix Mall, Senapati Bapat Marg, Lower Parcel</div>`)[0];
+            popup_d6da815fac7e4c33a319e8241cb6e18b.setContent(html_b35f37df2a714746a2c07e6b60ee58b9);
+        
+
+        marker_935f7e6c2a6f48378e531469ae36fc67.bindPopup(popup_d6da815fac7e4c33a319e8241cb6e18b)
+        ;
+
+        
+    
+    
+            var marker_4ac0259608454618bdbff4c31c4799ed = L.marker(
+                [19.0, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_75afe3aa0393458c90d5cabe3770c650 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4ac0259608454618bdbff4c31c4799ed.setIcon(icon_75afe3aa0393458c90d5cabe3770c650);
+        
+    
+        var popup_253cef52c3fa4b6181750df96d046123 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bae306e0d8c4fc1bb7bc57499cc1b17 = $(`<div id="html_6bae306e0d8c4fc1bb7bc57499cc1b17" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Marathon Futurex, NM Joshi Marg, Lower Parel</div>`)[0];
+            popup_253cef52c3fa4b6181750df96d046123.setContent(html_6bae306e0d8c4fc1bb7bc57499cc1b17);
+        
+
+        marker_4ac0259608454618bdbff4c31c4799ed.bindPopup(popup_253cef52c3fa4b6181750df96d046123)
+        ;
+
+        
+    
+    
+            var marker_af63fdc0af9a433084924e13712943e4 = L.marker(
+                [19.07, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_d4bf12114f6643309f00ddb9d9abf257 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_af63fdc0af9a433084924e13712943e4.setIcon(icon_d4bf12114f6643309f00ddb9d9abf257);
+        
+    
+        var popup_77bc1fec91d74aadba7368df1c72a6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a0b3efc692f45b9b7cdf042ac7cd627 = $(`<div id="html_6a0b3efc692f45b9b7cdf042ac7cd627" style="width: 100.0%; height: 100.0%;">Off Linking Road, Corner of 24th & 33rd Rd, Bandra West</div>`)[0];
+            popup_77bc1fec91d74aadba7368df1c72a6f2.setContent(html_6a0b3efc692f45b9b7cdf042ac7cd627);
+        
+
+        marker_af63fdc0af9a433084924e13712943e4.bindPopup(popup_77bc1fec91d74aadba7368df1c72a6f2)
+        ;
+
+        
+    
+    
+            var marker_d54d75c92e9b4558b073ca744ad83d2e = L.marker(
+                [19.11, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_23410fd12660466dbb62870369594353 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d54d75c92e9b4558b073ca744ad83d2e.setIcon(icon_23410fd12660466dbb62870369594353);
+        
+    
+        var popup_dadad0c4e0dc4c4eb25c043705ff1ebe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d830e43aec7044a08858eff78ed2e9c3 = $(`<div id="html_d830e43aec7044a08858eff78ed2e9c3" style="width: 100.0%; height: 100.0%;">Grd Flr, Tian Star, 48 Gulmohar Road, Juhu Scheme, Vile Parle (West)</div>`)[0];
+            popup_dadad0c4e0dc4c4eb25c043705ff1ebe.setContent(html_d830e43aec7044a08858eff78ed2e9c3);
+        
+
+        marker_d54d75c92e9b4558b073ca744ad83d2e.bindPopup(popup_dadad0c4e0dc4c4eb25c043705ff1ebe)
+        ;
+
+        
+    
+    
+            var marker_f397611e164043b3b0477ba4437cc350 = L.marker(
+                [19.1, 72.88],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_94545a3184ab4f829c20dedb623ede86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f397611e164043b3b0477ba4437cc350.setIcon(icon_94545a3184ab4f829c20dedb623ede86);
+        
+    
+        var popup_8065b7b6938e4f678420c9e38ca8e7ad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9705d3b610743aba74b912e6ce149d2 = $(`<div id="html_a9705d3b610743aba74b912e6ce149d2" style="width: 100.0%; height: 100.0%;">T2 Departure SHA, Level P9, Food Court, Andheri (East)</div>`)[0];
+            popup_8065b7b6938e4f678420c9e38ca8e7ad.setContent(html_a9705d3b610743aba74b912e6ce149d2);
+        
+
+        marker_f397611e164043b3b0477ba4437cc350.bindPopup(popup_8065b7b6938e4f678420c9e38ca8e7ad)
+        ;
+
+        
+    
+    
+            var marker_ea35790935534ef0af195aaea56fc8e6 = L.marker(
+                [19.07, 72.87],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_6b29677d04e649b2859ee4e2412420ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea35790935534ef0af195aaea56fc8e6.setIcon(icon_6b29677d04e649b2859ee4e2412420ee);
+        
+    
+        var popup_58d667f1bde74b7da5c53db83605b996 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74e68c7d5e1a4b258e4bd6459fe051e2 = $(`<div id="html_74e68c7d5e1a4b258e4bd6459fe051e2" style="width: 100.0%; height: 100.0%;">First International Financial Centre, Bandra Kurla Complex Road, Bandra (East)</div>`)[0];
+            popup_58d667f1bde74b7da5c53db83605b996.setContent(html_74e68c7d5e1a4b258e4bd6459fe051e2);
+        
+
+        marker_ea35790935534ef0af195aaea56fc8e6.bindPopup(popup_58d667f1bde74b7da5c53db83605b996)
+        ;
+
+        
+    
+    
+            var marker_6e83502e070b438bbb94c00441017b27 = L.marker(
+                [18.92, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_1f9570bea797450fa49ddcd9276b119c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6e83502e070b438bbb94c00441017b27.setIcon(icon_1f9570bea797450fa49ddcd9276b119c);
+        
+    
+        var popup_deb4b8c15e9f4dc1899279bcf8fc816d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b36cba119fa14474859db993472556f2 = $(`<div id="html_b36cba119fa14474859db993472556f2" style="width: 100.0%; height: 100.0%;">Hotel Taj Mahal Palace, Apollo Bunder, Apollo Bunder, Opp. Gateway of India</div>`)[0];
+            popup_deb4b8c15e9f4dc1899279bcf8fc816d.setContent(html_b36cba119fa14474859db993472556f2);
+        
+
+        marker_6e83502e070b438bbb94c00441017b27.bindPopup(popup_deb4b8c15e9f4dc1899279bcf8fc816d)
+        ;
+
+        
+    
+    
+            var marker_c1a59cbd575045c4ae0a59bc135c730d = L.marker(
+                [19.09, 72.89],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_04f3fc325d384ac9929c08f64d98a330 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c1a59cbd575045c4ae0a59bc135c730d.setIcon(icon_04f3fc325d384ac9929c08f64d98a330);
+        
+    
+        var popup_1c7deb1184df4f33a35efd1e6ec70fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ed68030db904a0db1cb1b0712f92221 = $(`<div id="html_2ed68030db904a0db1cb1b0712f92221" style="width: 100.0%; height: 100.0%;">First Floor, Phoenix Market City, Lal Bahadur Shastri Marg, Kurla (West)</div>`)[0];
+            popup_1c7deb1184df4f33a35efd1e6ec70fd4.setContent(html_2ed68030db904a0db1cb1b0712f92221);
+        
+
+        marker_c1a59cbd575045c4ae0a59bc135c730d.bindPopup(popup_1c7deb1184df4f33a35efd1e6ec70fd4)
+        ;
+
+        
+    
+    
+            var marker_669934295d9740599f182d8ee3755c9f = L.marker(
+                [19.17, 72.84],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_8449ee5a17094bb3ac8011083bd078f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_669934295d9740599f182d8ee3755c9f.setIcon(icon_8449ee5a17094bb3ac8011083bd078f7);
+        
+    
+        var popup_e047fd8f48064b688dcbb95d1d3ee3d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_77bc9ab5c55747c3864f511cfd40e87b = $(`<div id="html_77bc9ab5c55747c3864f511cfd40e87b" style="width: 100.0%; height: 100.0%;">Ground Floor, Inorbit Mall, Link Road,  Malad (West)</div>`)[0];
+            popup_e047fd8f48064b688dcbb95d1d3ee3d4.setContent(html_77bc9ab5c55747c3864f511cfd40e87b);
+        
+
+        marker_669934295d9740599f182d8ee3755c9f.bindPopup(popup_e047fd8f48064b688dcbb95d1d3ee3d4)
+        ;
+
+        
+    
+    
+            var marker_c5261e64d64c4dc897acd9e99377a61a = L.marker(
+                [19.06, 72.86],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_4eaa26d310e442ce9e8901cb6c839470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c5261e64d64c4dc897acd9e99377a61a.setIcon(icon_4eaa26d310e442ce9e8901cb6c839470);
+        
+    
+        var popup_0e8588e8491f4cb087fe1cd210bf91c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29c8b3ce86da4bc0a1b5699580072046 = $(`<div id="html_29c8b3ce86da4bc0a1b5699580072046" style="width: 100.0%; height: 100.0%;">Ground Floor, The Capital, Bandra Kurla Complex, Bandra (East)</div>`)[0];
+            popup_0e8588e8491f4cb087fe1cd210bf91c2.setContent(html_29c8b3ce86da4bc0a1b5699580072046);
+        
+
+        marker_c5261e64d64c4dc897acd9e99377a61a.bindPopup(popup_0e8588e8491f4cb087fe1cd210bf91c2)
+        ;
+
+        
+    
+    
+            var marker_f2f92e58ea164849a94c3c9d213a57e7 = L.marker(
+                [19.12, 72.91],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_174bc21dc86b42b2adb48dfa2e5e812f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f2f92e58ea164849a94c3c9d213a57e7.setIcon(icon_174bc21dc86b42b2adb48dfa2e5e812f);
+        
+    
+        var popup_b0f7b1647d964c38b96684ed9e4d4c89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea486473b997424f8a8ca12b88319730 = $(`<div id="html_ea486473b997424f8a8ca12b88319730" style="width: 100.0%; height: 100.0%;">Prudential Bldg Hiranandani Bus Park, Gr Fl, Central Avenue Road</div>`)[0];
+            popup_b0f7b1647d964c38b96684ed9e4d4c89.setContent(html_ea486473b997424f8a8ca12b88319730);
+        
+
+        marker_f2f92e58ea164849a94c3c9d213a57e7.bindPopup(popup_b0f7b1647d964c38b96684ed9e4d4c89)
+        ;
+
+        
+    
+    
+            var marker_adaebc396b0f4f898bb280e9bd78f8f7 = L.marker(
+                [19.16, 72.85],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_c3ba54b84f8f4886a780c5c7bb1be2a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_adaebc396b0f4f898bb280e9bd78f8f7.setIcon(icon_c3ba54b84f8f4886a780c5c7bb1be2a4);
+        
+    
+        var popup_63c38afebe0e4cb0b07608a3a196201a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7fd18221d0c494cbc684c81e3a0739c = $(`<div id="html_f7fd18221d0c494cbc684c81e3a0739c" style="width: 100.0%; height: 100.0%;">Grd floor,Block B6,Nirlon Knowledge Pk, Off Western Express Highway</div>`)[0];
+            popup_63c38afebe0e4cb0b07608a3a196201a.setContent(html_f7fd18221d0c494cbc684c81e3a0739c);
+        
+
+        marker_adaebc396b0f4f898bb280e9bd78f8f7.bindPopup(popup_63c38afebe0e4cb0b07608a3a196201a)
+        ;
+
+        
+    
+    
+            var marker_4fb8924ede5d45968af5e9551cf715e8 = L.marker(
+                [19.17, 72.86],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_48564f021dc142d6be16c42fd0c9a553 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_4fb8924ede5d45968af5e9551cf715e8.setIcon(icon_48564f021dc142d6be16c42fd0c9a553);
+        
+    
+        var popup_7b3d1b8edca9486c8c4c43375b3a4fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9165590cb908439fa870317a6df3d6fe = $(`<div id="html_9165590cb908439fa870317a6df3d6fe" style="width: 100.0%; height: 100.0%;">Off Western Express Highway, Goregaon (East)</div>`)[0];
+            popup_7b3d1b8edca9486c8c4c43375b3a4fc4.setContent(html_9165590cb908439fa870317a6df3d6fe);
+        
+
+        marker_4fb8924ede5d45968af5e9551cf715e8.bindPopup(popup_7b3d1b8edca9486c8c4c43375b3a4fc4)
+        ;
+
+        
+    
+    
+            var marker_78e34211c1a94b518b4266643d522a6d = L.marker(
+                [19.09, 72.86],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_ddeefec8a6b94bb1b9d6327b6d29f0f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_78e34211c1a94b518b4266643d522a6d.setIcon(icon_ddeefec8a6b94bb1b9d6327b6d29f0f0);
+        
+    
+        var popup_58b02e335f2f4828806017c459058b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45887fe29dc2464084c62f0f3de1b6b4 = $(`<div id="html_45887fe29dc2464084c62f0f3de1b6b4" style="width: 100.0%; height: 100.0%;">Domestic Arrivals, Terminal 1B, Santa Cruz (East)</div>`)[0];
+            popup_58b02e335f2f4828806017c459058b2d.setContent(html_45887fe29dc2464084c62f0f3de1b6b4);
+        
+
+        marker_78e34211c1a94b518b4266643d522a6d.bindPopup(popup_58b02e335f2f4828806017c459058b2d)
+        ;
+
+        
+    
+    
+            var marker_826ef088117e48bc8ba0b76f12186521 = L.marker(
+                [19.1, 72.83],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_b10f9c18c65648e9aafac88dba09efc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_826ef088117e48bc8ba0b76f12186521.setIcon(icon_b10f9c18c65648e9aafac88dba09efc4);
+        
+    
+        var popup_8b8e38ba41c64d6aaed9cbd3b1589c2c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6923acbb9f0f45548b59c8a62a35006e = $(`<div id="html_6923acbb9f0f45548b59c8a62a35006e" style="width: 100.0%; height: 100.0%;">Ground Floor, Hotel Bawa Continental, Juhu Tara Road</div>`)[0];
+            popup_8b8e38ba41c64d6aaed9cbd3b1589c2c.setContent(html_6923acbb9f0f45548b59c8a62a35006e);
+        
+
+        marker_826ef088117e48bc8ba0b76f12186521.bindPopup(popup_8b8e38ba41c64d6aaed9cbd3b1589c2c)
+        ;
+
+        
+    
+    
+            var marker_b4fbb2935fc84aa799eef012b527403d = L.marker(
+                [19.21, 72.84],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_8131669cd9e148718e291ad911556197 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_b4fbb2935fc84aa799eef012b527403d.setIcon(icon_8131669cd9e148718e291ad911556197);
+        
+    
+        var popup_1ba9a0279dae4105ae632ec3676ddf09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f907053b5568467f81a0dc364d900ca2 = $(`<div id="html_f907053b5568467f81a0dc364d900ca2" style="width: 100.0%; height: 100.0%;">Ground Floor, V Souk, Sector 10, Mahavir Nagar, Kandivali (West)</div>`)[0];
+            popup_1ba9a0279dae4105ae632ec3676ddf09.setContent(html_f907053b5568467f81a0dc364d900ca2);
+        
+
+        marker_b4fbb2935fc84aa799eef012b527403d.bindPopup(popup_1ba9a0279dae4105ae632ec3676ddf09)
+        ;
+
+        
+    
+    
+            var marker_201f6d2d2e9141368cefdee51d347b44 = L.marker(
+                [18.96, 72.81],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_537966368f63426aac7cc1b600d555c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_201f6d2d2e9141368cefdee51d347b44.setIcon(icon_537966368f63426aac7cc1b600d555c4);
+        
+    
+        var popup_24d97305221449318ed33cf11cca4a10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7406d2d1c25f46e8b34728c129163442 = $(`<div id="html_7406d2d1c25f46e8b34728c129163442" style="width: 100.0%; height: 100.0%;">Shree Krishna Hindu Merchant Club, By Wilson College,Girgaon Chowpatty</div>`)[0];
+            popup_24d97305221449318ed33cf11cca4a10.setContent(html_7406d2d1c25f46e8b34728c129163442);
+        
+
+        marker_201f6d2d2e9141368cefdee51d347b44.bindPopup(popup_24d97305221449318ed33cf11cca4a10)
+        ;
+
+        
+    
+    
+            var marker_37c6c03d24d84d748fb5e5f8614484db = L.marker(
+                [19.07, 73.0],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_9ce593be3409445d845340ea59e0d0ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_37c6c03d24d84d748fb5e5f8614484db.setIcon(icon_9ce593be3409445d845340ea59e0d0ff);
+        
+    
+        var popup_24c6a0c0e49e422fb63503ccb50525f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8414af9678544d3d967a33340aa44f00 = $(`<div id="html_8414af9678544d3d967a33340aa44f00" style="width: 100.0%; height: 100.0%;">Ground Floor, Inorbit Mall, Sector 30A, Vashi</div>`)[0];
+            popup_24c6a0c0e49e422fb63503ccb50525f5.setContent(html_8414af9678544d3d967a33340aa44f00);
+        
+
+        marker_37c6c03d24d84d748fb5e5f8614484db.bindPopup(popup_24c6a0c0e49e422fb63503ccb50525f5)
+        ;
+
+        
+    
+    
+            var marker_8bd76407deaf4d47b6d6c43e1d57a2ab = L.marker(
+                [28.68, 77.2],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_debe22e6404d48c685e78b3ee71c508c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8bd76407deaf4d47b6d6c43e1d57a2ab.setIcon(icon_debe22e6404d48c685e78b3ee71c508c);
+        
+    
+        var popup_1f3d8f894ee94f95b05c2f9257c73d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a97fb5bdd51434dbe68af6caff55181 = $(`<div id="html_3a97fb5bdd51434dbe68af6caff55181" style="width: 100.0%; height: 100.0%;">First Floor, Spark Mall, Kamla Nagar</div>`)[0];
+            popup_1f3d8f894ee94f95b05c2f9257c73d11.setContent(html_3a97fb5bdd51434dbe68af6caff55181);
+        
+
+        marker_8bd76407deaf4d47b6d6c43e1d57a2ab.bindPopup(popup_1f3d8f894ee94f95b05c2f9257c73d11)
+        ;
+
+        
+    
+    
+            var marker_8d67fa537af341419b031ec12b64a885 = L.marker(
+                [18.56, 73.92],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_adaef5b50f5f41c5b3686b57bad41977 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8d67fa537af341419b031ec12b64a885.setIcon(icon_adaef5b50f5f41c5b3686b57bad41977);
+        
+    
+        var popup_e28dc1e92aae490fbc33d268f47652b8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00ae734a47cc48fc9218e5433f4744bf = $(`<div id="html_00ae734a47cc48fc9218e5433f4744bf" style="width: 100.0%; height: 100.0%;">Ground floor, Phoenix Market City, Viman Nagar</div>`)[0];
+            popup_e28dc1e92aae490fbc33d268f47652b8.setContent(html_00ae734a47cc48fc9218e5433f4744bf);
+        
+
+        marker_8d67fa537af341419b031ec12b64a885.bindPopup(popup_e28dc1e92aae490fbc33d268f47652b8)
+        ;
+
+        
+    
+    
+            var marker_33b86b26ff754c3b8cf03c6548b33e7c = L.marker(
+                [18.5, 73.82],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_fe77494576bc42ddbe77b74bf1575adb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_33b86b26ff754c3b8cf03c6548b33e7c.setIcon(icon_fe77494576bc42ddbe77b74bf1575adb);
+        
+    
+        var popup_a28e1b32afb24cd3ae59e7a925228443 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f5004eb9f04b412690c5c5b194b57bc3 = $(`<div id="html_f5004eb9f04b412690c5c5b194b57bc3" style="width: 100.0%; height: 100.0%;">Sangam Press Road, Kothrud</div>`)[0];
+            popup_a28e1b32afb24cd3ae59e7a925228443.setContent(html_f5004eb9f04b412690c5c5b194b57bc3);
+        
+
+        marker_33b86b26ff754c3b8cf03c6548b33e7c.bindPopup(popup_a28e1b32afb24cd3ae59e7a925228443)
+        ;
+
+        
+    
+    
+            var marker_7cdfbfd3d0cc4bc7b99bbcac4a6bcae3 = L.marker(
+                [18.56, 73.81],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_b986bb7e380643d89f9751482eb56782 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7cdfbfd3d0cc4bc7b99bbcac4a6bcae3.setIcon(icon_b986bb7e380643d89f9751482eb56782);
+        
+    
+        var popup_ac446ffd9f744218ab4a88b845887126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abe11a36021e4b7091cee172566b9338 = $(`<div id="html_abe11a36021e4b7091cee172566b9338" style="width: 100.0%; height: 100.0%;">Ground floor, Centriole, Anand Park, ITI Road, Aundh</div>`)[0];
+            popup_ac446ffd9f744218ab4a88b845887126.setContent(html_abe11a36021e4b7091cee172566b9338);
+        
+
+        marker_7cdfbfd3d0cc4bc7b99bbcac4a6bcae3.bindPopup(popup_ac446ffd9f744218ab4a88b845887126)
+        ;
+
+        
+    
+    
+            var marker_08ea88b10b814a4a9df64e09809b30d9 = L.marker(
+                [18.52, 73.93],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_1659d12692b448daa9075adc77bbe859 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_08ea88b10b814a4a9df64e09809b30d9.setIcon(icon_1659d12692b448daa9075adc77bbe859);
+        
+    
+        var popup_d1acee2f0ae641578867db99e8b6188d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339080e27cde4af9b2d6155358a307f9 = $(`<div id="html_339080e27cde4af9b2d6155358a307f9" style="width: 100.0%; height: 100.0%;">First Floor, Seasons Mall, Magarpatta City, Hadapsar</div>`)[0];
+            popup_d1acee2f0ae641578867db99e8b6188d.setContent(html_339080e27cde4af9b2d6155358a307f9);
+        
+
+        marker_08ea88b10b814a4a9df64e09809b30d9.bindPopup(popup_d1acee2f0ae641578867db99e8b6188d)
+        ;
+
+        
+    
+    
+            var marker_ea12edacee18421299f1e23fb59e3be5 = L.marker(
+                [18.54, 73.89],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_54b62a5860964c1895151ea387e17c8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ea12edacee18421299f1e23fb59e3be5.setIcon(icon_54b62a5860964c1895151ea387e17c8e);
+        
+    
+        var popup_3dd211ddf70f4d81b9d816dd5c3608ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c722e4065c524c2686cf46bf01eb1404 = $(`<div id="html_c722e4065c524c2686cf46bf01eb1404" style="width: 100.0%; height: 100.0%;">1 Galaxy Gardens, North Main Road</div>`)[0];
+            popup_3dd211ddf70f4d81b9d816dd5c3608ed.setContent(html_c722e4065c524c2686cf46bf01eb1404);
+        
+
+        marker_ea12edacee18421299f1e23fb59e3be5.bindPopup(popup_3dd211ddf70f4d81b9d816dd5c3608ed)
+        ;
+
+        
+    
+    
+            var marker_dd19391a7df9498bb050a270dd8ef6da = L.marker(
+                [18.55, 73.95],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_afa3edd52f114050a427bf61ca66cee2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_dd19391a7df9498bb050a270dd8ef6da.setIcon(icon_afa3edd52f114050a427bf61ca66cee2);
+        
+    
+        var popup_338d82c742bb48049dee14976a4de6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11f572c70b7b4835a78af4e21515c985 = $(`<div id="html_11f572c70b7b4835a78af4e21515c985" style="width: 100.0%; height: 100.0%;">Ground Floor, EON Free Zone, Cluster A, MIDC, Kharadi Knowledge Park</div>`)[0];
+            popup_338d82c742bb48049dee14976a4de6e0.setContent(html_11f572c70b7b4835a78af4e21515c985);
+        
+
+        marker_dd19391a7df9498bb050a270dd8ef6da.bindPopup(popup_338d82c742bb48049dee14976a4de6e0)
+        ;
+
+        
+    
+    
+            var marker_e1d93af715cf4bcaa3f30b196209e2bc = L.marker(
+                [18.52, 73.94],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_bb0b10b8cf4847828a2a7d9c7a8e0e47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e1d93af715cf4bcaa3f30b196209e2bc.setIcon(icon_bb0b10b8cf4847828a2a7d9c7a8e0e47);
+        
+    
+        var popup_2cdd49d6d9074e2e97a374347d1bb739 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7965f1b701cd4e959c6accadcf98be2c = $(`<div id="html_7965f1b701cd4e959c6accadcf98be2c" style="width: 100.0%; height: 100.0%;">Ground Floor, West Block, Amanora Town Centre, Hadapsar</div>`)[0];
+            popup_2cdd49d6d9074e2e97a374347d1bb739.setContent(html_7965f1b701cd4e959c6accadcf98be2c);
+        
+
+        marker_e1d93af715cf4bcaa3f30b196209e2bc.bindPopup(popup_2cdd49d6d9074e2e97a374347d1bb739)
+        ;
+
+        
+    
+    
+            var marker_bd83e39eb4c54ebb8700015eb60dc181 = L.marker(
+                [18.52, 73.84],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_43239796b6e24f8690e6d2021ab2b44c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_bd83e39eb4c54ebb8700015eb60dc181.setIcon(icon_43239796b6e24f8690e6d2021ab2b44c);
+        
+    
+        var popup_35c8a6073d374d5b844ec81359e6ec07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df57251a5657453c907f69e5bc30fa07 = $(`<div id="html_df57251a5657453c907f69e5bc30fa07" style="width: 100.0%; height: 100.0%;">Mosaic Ground Floor West, Across Fergusson College Gate 2, FC Rd</div>`)[0];
+            popup_35c8a6073d374d5b844ec81359e6ec07.setContent(html_df57251a5657453c907f69e5bc30fa07);
+        
+
+        marker_bd83e39eb4c54ebb8700015eb60dc181.bindPopup(popup_35c8a6073d374d5b844ec81359e6ec07)
+        ;
+
+        
+    
+    
+            var marker_3cc188ba12a046c997781ce006fa6f23 = L.marker(
+                [13.06, 80.25],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_cdad5b3dc1f04ebfb8293c776eb3b961 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3cc188ba12a046c997781ce006fa6f23.setIcon(icon_cdad5b3dc1f04ebfb8293c776eb3b961);
+        
+    
+        var popup_7a5d7109e94443908207d92cc814c46c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e281ef975bf44b99319c7675d104fd3 = $(`<div id="html_5e281ef975bf44b99319c7675d104fd3" style="width: 100.0%; height: 100.0%;">Ground Floor, Bergamo Mall, Khadar Nawas Khan Road</div>`)[0];
+            popup_7a5d7109e94443908207d92cc814c46c.setContent(html_5e281ef975bf44b99319c7675d104fd3);
+        
+
+        marker_3cc188ba12a046c997781ce006fa6f23.bindPopup(popup_7a5d7109e94443908207d92cc814c46c)
+        ;
+
+        
+    
+    
+            var marker_d5bcde9070a643f4adeca253a23e6e84 = L.marker(
+                [13.06, 80.26],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_3ea9d44643ea47828cbf9ca60bfe9b98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d5bcde9070a643f4adeca253a23e6e84.setIcon(icon_3ea9d44643ea47828cbf9ca60bfe9b98);
+        
+    
+        var popup_773e04e0f6af497f82f4002294f64269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8a1287dd9f8443d902ba01c6e9b05a2 = $(`<div id="html_a8a1287dd9f8443d902ba01c6e9b05a2" style="width: 100.0%; height: 100.0%;">Ground Floor, Express Avenue Mall, Whites Road, Royapettah</div>`)[0];
+            popup_773e04e0f6af497f82f4002294f64269.setContent(html_a8a1287dd9f8443d902ba01c6e9b05a2);
+        
+
+        marker_d5bcde9070a643f4adeca253a23e6e84.bindPopup(popup_773e04e0f6af497f82f4002294f64269)
+        ;
+
+        
+    
+    
+            var marker_127f0f78228d4ce98be0b0a40ff12c25 = L.marker(
+                [13.09, 80.21],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_4caa59da57ba4061aa1843f66e07d21f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_127f0f78228d4ce98be0b0a40ff12c25.setIcon(icon_4caa59da57ba4061aa1843f66e07d21f);
+        
+    
+        var popup_64b5a8e131624b5db95fa5eecad142b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfd7daadd6a44c4596684d1afb27f428 = $(`<div id="html_bfd7daadd6a44c4596684d1afb27f428" style="width: 100.0%; height: 100.0%;">TBR tower, Y block, 2nd Avenue, Near Ayyappa Temple, Anna Nagar</div>`)[0];
+            popup_64b5a8e131624b5db95fa5eecad142b5.setContent(html_bfd7daadd6a44c4596684d1afb27f428);
+        
+
+        marker_127f0f78228d4ce98be0b0a40ff12c25.bindPopup(popup_64b5a8e131624b5db95fa5eecad142b5)
+        ;
+
+        
+    
+    
+            var marker_00c61297155044f2b6a958c86619f499 = L.marker(
+                [12.99, 80.22],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_1125c5d1830c49f09efd5733a30a1ead = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_00c61297155044f2b6a958c86619f499.setIcon(icon_1125c5d1830c49f09efd5733a30a1ead);
+        
+    
+        var popup_8de9cc655a88443aaca5b2bf2049be49 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8d4ce52fca84ec0b478933415bb9b63 = $(`<div id="html_f8d4ce52fca84ec0b478933415bb9b63" style="width: 100.0%; height: 100.0%;">Upper Ground Floor, Phoenix marketcity, Velachery Main Road</div>`)[0];
+            popup_8de9cc655a88443aaca5b2bf2049be49.setContent(html_f8d4ce52fca84ec0b478933415bb9b63);
+        
+
+        marker_00c61297155044f2b6a958c86619f499.bindPopup(popup_8de9cc655a88443aaca5b2bf2049be49)
+        ;
+
+        
+    
+    
+            var marker_1d6a7a6660d749799fadb3ddc8d48bfe = L.marker(
+                [13.03, 80.25],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_86c4813dc8374c42bc553cba131d29f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d6a7a6660d749799fadb3ddc8d48bfe.setIcon(icon_86c4813dc8374c42bc553cba131d29f2);
+        
+    
+        var popup_b9cec7a3b67344d6a50165e1a20a671e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4212da8081554ea9b5b955cf5036a076 = $(`<div id="html_4212da8081554ea9b5b955cf5036a076" style="width: 100.0%; height: 100.0%;">Ground Floor, MGN Splendor, Off Chamiers Road, Alwarpet</div>`)[0];
+            popup_b9cec7a3b67344d6a50165e1a20a671e.setContent(html_4212da8081554ea9b5b955cf5036a076);
+        
+
+        marker_1d6a7a6660d749799fadb3ddc8d48bfe.bindPopup(popup_b9cec7a3b67344d6a50165e1a20a671e)
+        ;
+
+        
+    
+    
+            var marker_3fa4e5c0e5bc4c8695bece73e9c2c945 = L.marker(
+                [28.57, 77.33],
+                {}
+            ).addTo(feature_group_51015cb75c8b43499bda6284b0fa8340);
+        
+    
+            var icon_3edd93f3d2a24eb4a95c444f54a6b43f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3fa4e5c0e5bc4c8695bece73e9c2c945.setIcon(icon_3edd93f3d2a24eb4a95c444f54a6b43f);
+        
+    
+        var popup_a344c18bc19a4ca19b87a8bc8ffc8e84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_586fd0a99df74987ac4c059c43631eb3 = $(`<div id="html_586fd0a99df74987ac4c059c43631eb3" style="width: 100.0%; height: 100.0%;">Ground Floor, Gardens Galleria, Sector 16</div>`)[0];
+            popup_a344c18bc19a4ca19b87a8bc8ffc8e84.setContent(html_586fd0a99df74987ac4c059c43631eb3);
+        
+
+        marker_3fa4e5c0e5bc4c8695bece73e9c2c945.bindPopup(popup_a344c18bc19a4ca19b87a8bc8ffc8e84)
+        ;
+
+        
+    
+    
+            var feature_group_b732f0a739054b79a075d65a98ec8cba = L.featureGroup(
+                {}
+            ).addTo(map_44945e38a0d34745af3c53e7540c3955);
+        
+    
+            var marker_cdb9ef43240a4cf68895b0a7ed82973c = L.marker(
+                [18.569156200000002, 73.77472289],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_56464887d6a8458b84db7eef9566f540 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cdb9ef43240a4cf68895b0a7ed82973c.setIcon(icon_56464887d6a8458b84db7eef9566f540);
+        
+    
+        var popup_6d0ec5103c7349e592a4b93de575641a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9950726cf8774bcb8e6aad983747a964 = $(`<div id="html_9950726cf8774bcb8e6aad983747a964" style="width: 100.0%; height: 100.0%;">The Urban Foundry</div>`)[0];
+            popup_6d0ec5103c7349e592a4b93de575641a.setContent(html_9950726cf8774bcb8e6aad983747a964);
+        
+
+        marker_cdb9ef43240a4cf68895b0a7ed82973c.bindPopup(popup_6d0ec5103c7349e592a4b93de575641a)
+        ;
+
+        
+    
+    
+            var marker_4551e41d6bd34e158887773415b67be8 = L.marker(
+                [18.5514399, 73.80485516],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_f7f1ecdbb8a04d669bc4fbb1dce70724 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4551e41d6bd34e158887773415b67be8.setIcon(icon_f7f1ecdbb8a04d669bc4fbb1dce70724);
+        
+    
+        var popup_43ac12df6285452391cb8ba1444e2d7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f99605b9f91346208527cf732d236d41 = $(`<div id="html_f99605b9f91346208527cf732d236d41" style="width: 100.0%; height: 100.0%;">Teddy Boy</div>`)[0];
+            popup_43ac12df6285452391cb8ba1444e2d7d.setContent(html_f99605b9f91346208527cf732d236d41);
+        
+
+        marker_4551e41d6bd34e158887773415b67be8.bindPopup(popup_43ac12df6285452391cb8ba1444e2d7d)
+        ;
+
+        
+    
+    
+            var marker_54296b8e1788414fab89f0035c2544fb = L.marker(
+                [18.554382, 73.7982064],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_6eaff836799a404b9328b2eae37da67a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54296b8e1788414fab89f0035c2544fb.setIcon(icon_6eaff836799a404b9328b2eae37da67a);
+        
+    
+        var popup_43faeedac219423698fb0a4130ac0b74 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a533cfa6b42a45ba9d8e9e0cb2b22c12 = $(`<div id="html_a533cfa6b42a45ba9d8e9e0cb2b22c12" style="width: 100.0%; height: 100.0%;">Effingut Brewerkz</div>`)[0];
+            popup_43faeedac219423698fb0a4130ac0b74.setContent(html_a533cfa6b42a45ba9d8e9e0cb2b22c12);
+        
+
+        marker_54296b8e1788414fab89f0035c2544fb.bindPopup(popup_43faeedac219423698fb0a4130ac0b74)
+        ;
+
+        
+    
+    
+            var marker_2b4cbe9847aa4b74b8c1e450a4c0e5e7 = L.marker(
+                [18.51420998, 73.83842938],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_2be5d042444b44f1ae417ec7b91e172f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2b4cbe9847aa4b74b8c1e450a4c0e5e7.setIcon(icon_2be5d042444b44f1ae417ec7b91e172f);
+        
+    
+        var popup_53e2db6be41c44e58c1e54f9315f8b7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_341be38bfe934cc68660afc4217e84aa = $(`<div id="html_341be38bfe934cc68660afc4217e84aa" style="width: 100.0%; height: 100.0%;">Le Plaisir</div>`)[0];
+            popup_53e2db6be41c44e58c1e54f9315f8b7d.setContent(html_341be38bfe934cc68660afc4217e84aa);
+        
+
+        marker_2b4cbe9847aa4b74b8c1e450a4c0e5e7.bindPopup(popup_53e2db6be41c44e58c1e54f9315f8b7d)
+        ;
+
+        
+    
+    
+            var marker_ec0bca7ef0de4a26a5d53a3c79e59520 = L.marker(
+                [18.543625600000002, 73.90510069999999],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_10a6c06157b64112b9bb403620c93eb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ec0bca7ef0de4a26a5d53a3c79e59520.setIcon(icon_10a6c06157b64112b9bb403620c93eb4);
+        
+    
+        var popup_6000b7a126754f4b9450f3f31ec8b413 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69e9c2dc4b744b828a4e9a7f5c09c5ce = $(`<div id="html_69e9c2dc4b744b828a4e9a7f5c09c5ce" style="width: 100.0%; height: 100.0%;">Farzi Cafe</div>`)[0];
+            popup_6000b7a126754f4b9450f3f31ec8b413.setContent(html_69e9c2dc4b744b828a4e9a7f5c09c5ce);
+        
+
+        marker_ec0bca7ef0de4a26a5d53a3c79e59520.bindPopup(popup_6000b7a126754f4b9450f3f31ec8b413)
+        ;
+
+        
+    
+    
+            var marker_27d0dd82855f4eccba2ca0d3b97e1d45 = L.marker(
+                [18.54625752, 73.90433729],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_104b74da0ae6491a9ab9819f1647fb7c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27d0dd82855f4eccba2ca0d3b97e1d45.setIcon(icon_104b74da0ae6491a9ab9819f1647fb7c);
+        
+    
+        var popup_476a844d4ba04ad38127b5e9acd77c78 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4e8f9bafc214c459144a20ad557b113 = $(`<div id="html_c4e8f9bafc214c459144a20ad557b113" style="width: 100.0%; height: 100.0%;">Mineority By Saby</div>`)[0];
+            popup_476a844d4ba04ad38127b5e9acd77c78.setContent(html_c4e8f9bafc214c459144a20ad557b113);
+        
+
+        marker_27d0dd82855f4eccba2ca0d3b97e1d45.bindPopup(popup_476a844d4ba04ad38127b5e9acd77c78)
+        ;
+
+        
+    
+    
+            var marker_7251f0877f92425ab44b06f12c2383f8 = L.marker(
+                [18.54694697, 73.90062645],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_d6b7e49b1f51442bbf43d8034e6af336 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7251f0877f92425ab44b06f12c2383f8.setIcon(icon_d6b7e49b1f51442bbf43d8034e6af336);
+        
+    
+        var popup_027e97b1c21b433b91c9803ce9eaa16a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa3bf58b40c140f1acc3736b06b1e330 = $(`<div id="html_fa3bf58b40c140f1acc3736b06b1e330" style="width: 100.0%; height: 100.0%;">The Little Next Door</div>`)[0];
+            popup_027e97b1c21b433b91c9803ce9eaa16a.setContent(html_fa3bf58b40c140f1acc3736b06b1e330);
+        
+
+        marker_7251f0877f92425ab44b06f12c2383f8.bindPopup(popup_027e97b1c21b433b91c9803ce9eaa16a)
+        ;
+
+        
+    
+    
+            var marker_d453ae69e4e3459f9a824063d6e7fdab = L.marker(
+                [18.53408003, 73.89852025],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_595e8a59be914b88bf21f4358076319e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d453ae69e4e3459f9a824063d6e7fdab.setIcon(icon_595e8a59be914b88bf21f4358076319e);
+        
+    
+        var popup_8aef763170c24994b6407983061033cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad816c94445d442fa3e2062c88166cdc = $(`<div id="html_ad816c94445d442fa3e2062c88166cdc" style="width: 100.0%; height: 100.0%;">Effingut Brewerkz</div>`)[0];
+            popup_8aef763170c24994b6407983061033cf.setContent(html_ad816c94445d442fa3e2062c88166cdc);
+        
+
+        marker_d453ae69e4e3459f9a824063d6e7fdab.bindPopup(popup_8aef763170c24994b6407983061033cf)
+        ;
+
+        
+    
+    
+            var marker_193a0389d7734bda91af3d45a62f7c4f = L.marker(
+                [18.53656175, 73.89648478],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_25040ec7c6ae4ca5b73661f71b86ecc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_193a0389d7734bda91af3d45a62f7c4f.setIcon(icon_25040ec7c6ae4ca5b73661f71b86ecc4);
+        
+    
+        var popup_918afa299e344a329790bb276813bc1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba2ef431b77b4897a3326736c0dbbeeb = $(`<div id="html_ba2ef431b77b4897a3326736c0dbbeeb" style="width: 100.0%; height: 100.0%;">Kargo</div>`)[0];
+            popup_918afa299e344a329790bb276813bc1f.setContent(html_ba2ef431b77b4897a3326736c0dbbeeb);
+        
+
+        marker_193a0389d7734bda91af3d45a62f7c4f.bindPopup(popup_918afa299e344a329790bb276813bc1f)
+        ;
+
+        
+    
+    
+            var marker_1794e8e29d54462e92b1a7e8488c924e = L.marker(
+                [18.53929933, 73.897902],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_893938627402449484051a57632abb72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1794e8e29d54462e92b1a7e8488c924e.setIcon(icon_893938627402449484051a57632abb72);
+        
+    
+        var popup_6196f65d7e5b47759e2ef62c714dc025 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_11b0b538fed3480e810fcebd943252c6 = $(`<div id="html_11b0b538fed3480e810fcebd943252c6" style="width: 100.0%; height: 100.0%;">Saut��ed Stories</div>`)[0];
+            popup_6196f65d7e5b47759e2ef62c714dc025.setContent(html_11b0b538fed3480e810fcebd943252c6);
+        
+
+        marker_1794e8e29d54462e92b1a7e8488c924e.bindPopup(popup_6196f65d7e5b47759e2ef62c714dc025)
+        ;
+
+        
+    
+    
+            var marker_0d766b13f0d64c40a31c88b67a4c9992 = L.marker(
+                [18.533811, 73.899315],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_44e89c013cda4a85a65744733c4138c2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d766b13f0d64c40a31c88b67a4c9992.setIcon(icon_44e89c013cda4a85a65744733c4138c2);
+        
+    
+        var popup_370b721bde9b4def92b7fd8e4082a0f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ab340e300dc4216aa4b32c5ce2cf96d = $(`<div id="html_0ab340e300dc4216aa4b32c5ce2cf96d" style="width: 100.0%; height: 100.0%;">The Sassy Spoon</div>`)[0];
+            popup_370b721bde9b4def92b7fd8e4082a0f0.setContent(html_0ab340e300dc4216aa4b32c5ce2cf96d);
+        
+
+        marker_0d766b13f0d64c40a31c88b67a4c9992.bindPopup(popup_370b721bde9b4def92b7fd8e4082a0f0)
+        ;
+
+        
+    
+    
+            var marker_2999200b8fe741db8eeda1ead85a5790 = L.marker(
+                [18.52001645, 73.83054703],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_cd5077e4b8b24a6cb71718737536df00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2999200b8fe741db8eeda1ead85a5790.setIcon(icon_cd5077e4b8b24a6cb71718737536df00);
+        
+    
+        var popup_bbb0f0ee7d884e8ea073154e7d1ff0cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_919dc090ee38469dabf51726c70f2c8a = $(`<div id="html_919dc090ee38469dabf51726c70f2c8a" style="width: 100.0%; height: 100.0%;">German Bakery Wunderbar</div>`)[0];
+            popup_bbb0f0ee7d884e8ea073154e7d1ff0cb.setContent(html_919dc090ee38469dabf51726c70f2c8a);
+        
+
+        marker_2999200b8fe741db8eeda1ead85a5790.bindPopup(popup_bbb0f0ee7d884e8ea073154e7d1ff0cb)
+        ;
+
+        
+    
+    
+            var marker_84d1e038023245c8838cd8da6990fa60 = L.marker(
+                [18.562450199999997, 73.9166191],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_3427388f3b97465b8ad06f3fa3b05b3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_84d1e038023245c8838cd8da6990fa60.setIcon(icon_3427388f3b97465b8ad06f3fa3b05b3c);
+        
+    
+        var popup_3aaac6ebdf14491e87e61ca08ddc3300 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3cb450b067a43298c66aa511cfcdc81 = $(`<div id="html_e3cb450b067a43298c66aa511cfcdc81" style="width: 100.0%; height: 100.0%;">Chili's</div>`)[0];
+            popup_3aaac6ebdf14491e87e61ca08ddc3300.setContent(html_e3cb450b067a43298c66aa511cfcdc81);
+        
+
+        marker_84d1e038023245c8838cd8da6990fa60.bindPopup(popup_3aaac6ebdf14491e87e61ca08ddc3300)
+        ;
+
+        
+    
+    
+            var marker_e94c1aa777e74d07bae3e04fafad7e16 = L.marker(
+                [18.51621575, 73.84252679],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_5f5a55604c6647f5be0229f68c05416b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e94c1aa777e74d07bae3e04fafad7e16.setIcon(icon_5f5a55604c6647f5be0229f68c05416b);
+        
+    
+        var popup_f88b496f44394821aec700db92a8307f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_192961a5d412475f86ea156fb1dd48c4 = $(`<div id="html_192961a5d412475f86ea156fb1dd48c4" style="width: 100.0%; height: 100.0%;">Barbeque Nation</div>`)[0];
+            popup_f88b496f44394821aec700db92a8307f.setContent(html_192961a5d412475f86ea156fb1dd48c4);
+        
+
+        marker_e94c1aa777e74d07bae3e04fafad7e16.bindPopup(popup_f88b496f44394821aec700db92a8307f)
+        ;
+
+        
+    
+    
+            var marker_5cf103baefb34d789769b2573e0da6a3 = L.marker(
+                [18.63621513, 73.75108123],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_a1c9d9f12eef43e49795843ff26f6a05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5cf103baefb34d789769b2573e0da6a3.setIcon(icon_a1c9d9f12eef43e49795843ff26f6a05);
+        
+    
+        var popup_7e3d0bd908c849d29768fc024c82de3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1050197df78493a93f549ba393f72b1 = $(`<div id="html_c1050197df78493a93f549ba393f72b1" style="width: 100.0%; height: 100.0%;">Blue Water</div>`)[0];
+            popup_7e3d0bd908c849d29768fc024c82de3c.setContent(html_c1050197df78493a93f549ba393f72b1);
+        
+
+        marker_5cf103baefb34d789769b2573e0da6a3.bindPopup(popup_7e3d0bd908c849d29768fc024c82de3c)
+        ;
+
+        
+    
+    
+            var marker_6f9c3684d560436d9ba03bbf8c093bac = L.marker(
+                [18.5367185, 73.8303275],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_6b7cdff6e43a472eb73973448da853dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6f9c3684d560436d9ba03bbf8c093bac.setIcon(icon_6b7cdff6e43a472eb73973448da853dc);
+        
+    
+        var popup_5ff5fab7530f464a96f9ff50f65ebc33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db93645e06e3466ab4227833a941f054 = $(`<div id="html_db93645e06e3466ab4227833a941f054" style="width: 100.0%; height: 100.0%;">Agent Jack's Bar</div>`)[0];
+            popup_5ff5fab7530f464a96f9ff50f65ebc33.setContent(html_db93645e06e3466ab4227833a941f054);
+        
+
+        marker_6f9c3684d560436d9ba03bbf8c093bac.bindPopup(popup_5ff5fab7530f464a96f9ff50f65ebc33)
+        ;
+
+        
+    
+    
+            var marker_aad4510a29e7458594252501bb4908ca = L.marker(
+                [18.530962600000002, 73.8289719],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_4b762a2641494cb58cb7125cd4386d0c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aad4510a29e7458594252501bb4908ca.setIcon(icon_4b762a2641494cb58cb7125cd4386d0c);
+        
+    
+        var popup_c1cb335c905045a68b5386b2e4e91d34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_668b170b946346a3a8e03cec76ca7fdb = $(`<div id="html_668b170b946346a3a8e03cec76ca7fdb" style="width: 100.0%; height: 100.0%;">Tales & Spirits</div>`)[0];
+            popup_c1cb335c905045a68b5386b2e4e91d34.setContent(html_668b170b946346a3a8e03cec76ca7fdb);
+        
+
+        marker_aad4510a29e7458594252501bb4908ca.bindPopup(popup_c1cb335c905045a68b5386b2e4e91d34)
+        ;
+
+        
+    
+    
+            var marker_99bffe87ecb644c2981e014f24116fe1 = L.marker(
+                [18.59348149, 73.785901],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_423af4ef3554459680ab23e311ccb55b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_99bffe87ecb644c2981e014f24116fe1.setIcon(icon_423af4ef3554459680ab23e311ccb55b);
+        
+    
+        var popup_702c1cf4ccde4fa780974fb143300732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eb60ef76a5844a54aefb5f26da86d121 = $(`<div id="html_eb60ef76a5844a54aefb5f26da86d121" style="width: 100.0%; height: 100.0%;">18 Degrees Resto Lounge</div>`)[0];
+            popup_702c1cf4ccde4fa780974fb143300732.setContent(html_eb60ef76a5844a54aefb5f26da86d121);
+        
+
+        marker_99bffe87ecb644c2981e014f24116fe1.bindPopup(popup_702c1cf4ccde4fa780974fb143300732)
+        ;
+
+        
+    
+    
+            var marker_bf711b6843eb46f0bf0480e6ea20bb0b = L.marker(
+                [18.5639345, 73.91536690000001],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_33d57a5794fb4d62be1e4589f0ea772a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bf711b6843eb46f0bf0480e6ea20bb0b.setIcon(icon_33d57a5794fb4d62be1e4589f0ea772a);
+        
+    
+        var popup_e3aede510c114bfa961acf8fab284e67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eea42d3696d943658e59b704e238437b = $(`<div id="html_eea42d3696d943658e59b704e238437b" style="width: 100.0%; height: 100.0%;">Apache</div>`)[0];
+            popup_e3aede510c114bfa961acf8fab284e67.setContent(html_eea42d3696d943658e59b704e238437b);
+        
+
+        marker_bf711b6843eb46f0bf0480e6ea20bb0b.bindPopup(popup_e3aede510c114bfa961acf8fab284e67)
+        ;
+
+        
+    
+    
+            var marker_eff53ee4eadf47229232726ffeb93653 = L.marker(
+                [18.5927182, 73.7735722],
+                {}
+            ).addTo(feature_group_b732f0a739054b79a075d65a98ec8cba);
+        
+    
+            var icon_277436fddf194ca6b2dea78bf73c7189 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eff53ee4eadf47229232726ffeb93653.setIcon(icon_277436fddf194ca6b2dea78bf73c7189);
+        
+    
+        var popup_508c9528bd2447528d8f95474c97ab15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f7668c898c794101b5ef1b8e7eeb1727 = $(`<div id="html_f7668c898c794101b5ef1b8e7eeb1727" style="width: 100.0%; height: 100.0%;">Barbeque Ville</div>`)[0];
+            popup_508c9528bd2447528d8f95474c97ab15.setContent(html_f7668c898c794101b5ef1b8e7eeb1727);
+        
+
+        marker_eff53ee4eadf47229232726ffeb93653.bindPopup(popup_508c9528bd2447528d8f95474c97ab15)
+        ;
+
+        
+    
+    
+            var layer_control_6acd89d8b27d4c84938528f14f6f5af4 = {
+                base_layers : {
+                    "stamenwatercolor" : tile_layer_6ee7fe157c4a4dc2905e2ba1ce9eaf11,
+                },
+                overlays :  {
+                    "Starbucks" : feature_group_51015cb75c8b43499bda6284b0fa8340,
+                    "Zomato Restaurants" : feature_group_b732f0a739054b79a075d65a98ec8cba,
+                },
+            };
+            L.control.layers(
+                layer_control_6acd89d8b27d4c84938528f14f6f5af4.base_layers,
+                layer_control_6acd89d8b27d4c84938528f14f6f5af4.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_44945e38a0d34745af3c53e7540c3955);
+        
+</script>
